@@ -1,0 +1,26 @@
+
+# If you would like to specify manual borders, add a new manual_borders section at the bottom of the file.
+# The format for each color of border is 'color = ["modid:item1", "modid:item2"]"]'. Replace the color with either a color name (like red or blue), or a RGB / ARGB hex color code like 0xFFFFFF or 0xFF00FFFF.
+# Here is a sample you can copy / paste and edit as needed:
+#[client.options.manual_borders]
+#	red = ["minecraft:torch", "minecraft:stick"]
+[client]
+
+	[client.options]
+		# If the hotbar should display item borders.
+		hotbar = true
+		# If item borders should show for common items.
+		show_for_common = false
+		# If the borders should have square corners.
+		square_corners = true
+		# If the borders should fully envelop item slots (otherwise they will only show on the bottom portion of the slot).
+		full_border = false
+		# If the borders draw over items instead of under.
+		over_items = false
+		# If the borders should have a more prominent glow.
+		extra_glow = false
+		# If automatic borders (based on item rarity) should be enabled.
+		auto_borders = true
+		# If enabled and Legendary Tooltips is installed, borders will sync with tooltip border colors.
+		legendary_tooltips_sync = false
+

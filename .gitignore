@@ -1,0 +1,201 @@
+#Ignore Server_Saves_Backups_Archives
+0_Server_Saves_Backups/*.zip
+0_Server_Saves_Backups/*.7z
+0_Server_Saves_Backups/*.rar
+0_Server_Saves_Backups/*.tar
+
+#Ignore Blood-N-Wine-2-Server-Export-Local
+Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/*
+
+#Ignore Blood-N-Wine-2-Server-Export
+Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/*
+
+#Ignore Blood-N-Wine-2-Technic-Export
+Blood-N-Wine-2-Export/Blood-N-Wine-2-Technic-Export/*
+
+#Ignore Blood-N-Wine-2-Curseforge-Export
+Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export/*
+
+#Ignore Blood-N-Wine-2-Modrinth-Export
+Blood-N-Wine-2-Export/Blood-N-Wine-2-Modrinth-Export/*
+
+#Ignore folders
+XaeroWaypoints
+XaeroWaypoints_BACKUP032021
+XaeroWorldMap
+capes
+downloads
+fancymenu_data
+fancymenu_instance_data
+fancymenu_setups
+modernfix
+impossible_data
+ViaFabricPlus
+userdata
+*.launch
+
+#ignore potentially private meteor and baritone files
+meteor-client
+baritone
+
+#ignore private schematics
+litematics_private
+schematics_private
+
+#ignore all waypoints folders
+waypoints
+
+#ignore all cache folders
+cache
+ESM
+
+#ignore servers.dat
+servers.dat
+
+#logs
+*.log
+logs/
+crash-reports
+dumps
+*.ans
+
+#ignore realms larp
+realms_persistence.json
+
+#dashloader cache
+dashloader-cache
+
+#fabric cache
+.fabric
+
+#litematica cache
+litematica
+
+#minihud cache
+minihud
+
+modernfix/structureCacheV1/*
+
+#worlds
+saves/
+
+screenshots
+tconplanner
+
+reauth.toml
+usercache.json
+usernamecache.json
+
+#hs_err_pid larp
+hs_err_pid*.log
+
+#servers
+servers.dat_old
+
+#.bak files
+*.bak
+
+#ignore temp files
+*.ogg_
+*_.ogg
+*_converted.ogg
+*-converted.ogg
+
+#ignore backup mods and audio folder
+mods_backup
+bloodnwine2_backup
+resourcepacks_backup
+
+#ignore modrinth pack
+Blood N Wine 2 2.2.mrpack
+
+#ignore sound compression presets
+bloodnwine2-128kbs-48khz-5-Reduc
+bloodnwine2-128kbs-48khz-5-Reduc.7z
+bloodnwine2-96kbs-48khz-25-Reduc
+bloodnwine2-96kbs-48khz-25-Reduc.7z
+bloodnwine2-64kbs-48khz-50-Reduc
+bloodnwine2-64kbs-48khz-50-Reduc.7z
+
+#ignore closed perms list for exporting to Modrinth
+mods_-_closed_perms_list_for_exporting_to_Modrinth
+mods_-_closed_perms_list_for_exporting_to_Modrinth.7z
+
+#ignore required by closed perms list
+mods_-_required_by_closed_perms_list
+mods_-_required_by_closed_perms_list.7z
+
+#ignore Blood-N-Wine-2-Assets Test Folders
+0_Blood-N-Wine-2-Assets/resourcepacks/Blood-N-Wine-2-Music
+0_Blood-N-Wine-2-Assets/resourcepacks/Blood-N-Wine-2-Music-II
+0_Blood-N-Wine-2-Assets/slideshows/Blood-N-Wine-2-Menu
+
+#ignore Blood-N-Wine-2-Music Archive
+Blood-N-Wine-2-Music.zip
+Blood-N-Wine-2-Music-II.zip
+
+#ignore Blood-N-Wine-2-Menu Archive
+Blood-N-Wine-2-Menu.zip
+
+#ignore cache
+lightspeed-cache
+
+#ignore oculus.properties to fix users getting shaders force enabled
+oculus.properties
+
+#ignore bloodnwine2resources extraction_cache.bomb to prevent sound files from not extracting
+#due to the program thinking the songs folder is already installed
+config/bloodnwine2resources/extraction_cache/extraction_cache.bomb
+config/bloodnwine2resources/extraction_cache/extraction_cache_Blood-N-Wine-2-Menu.bomb
+config/bloodnwine2resources/extraction_cache/extraction_cache_Blood-N-Wine-2-Music-II.bomb
+config/bloodnwine2resources/extraction_cache/extraction_cache_Blood-N-Wine-2-Music.bomb
+
+#ignore options.txt
+options.txt
+
+#ignore constantly changing files every time the game is booted
+config/FatherToast/specialmobs/drowned/abyssal_drowned.toml
+config/FatherToast/specialmobs/drowned/brute_drowned.toml
+config/FatherToast/specialmobs/drowned/fishing_drowned.toml
+config/FatherToast/specialmobs/drowned/frozen_drowned.toml
+config/FatherToast/specialmobs/drowned/giant_drowned.toml
+config/FatherToast/specialmobs/drowned/hungry_drowned.toml
+config/FatherToast/specialmobs/drowned/knight_drowned.toml
+config/FatherToast/specialmobs/drowned/plague_drowned.toml
+config/FatherToast/specialmobs/skeletons/brute_skeletons.toml
+config/FatherToast/specialmobs/skeletons/fire_skeletons.toml
+config/FatherToast/specialmobs/skeletons/gatling_skeletons.toml
+config/FatherToast/specialmobs/skeletons/giant_skeletons.toml
+config/FatherToast/specialmobs/skeletons/knight_skeletons.toml
+config/FatherToast/specialmobs/skeletons/ninja_skeletons.toml
+config/FatherToast/specialmobs/skeletons/poison_skeletons.toml
+config/FatherToast/specialmobs/skeletons/sniper_skeletons.toml
+config/FatherToast/specialmobs/skeletons/spitfire_skeletons.toml
+config/FatherToast/specialmobs/skeletons/stray_skeletons.toml
+config/FatherToast/specialmobs/skeletons/weathered_skeletons.toml
+config/FatherToast/specialmobs/wither_skeletons/brute_wither_skeletons.toml
+config/FatherToast/specialmobs/wither_skeletons/gatling_wither_skeletons.toml
+config/FatherToast/specialmobs/wither_skeletons/giant_wither_skeletons.toml
+config/FatherToast/specialmobs/wither_skeletons/knight_wither_skeletons.toml
+config/FatherToast/specialmobs/wither_skeletons/ninja_wither_skeletons.toml
+config/FatherToast/specialmobs/wither_skeletons/sniper_wither_skeletons.toml
+config/FatherToast/specialmobs/wither_skeletons/spitfire_wither_skeletons.toml
+config/FatherToast/specialmobs/zombies/brute_zombies.toml
+config/FatherToast/specialmobs/zombies/fire_zombies.toml
+config/FatherToast/specialmobs/zombies/fishing_zombies.toml
+config/FatherToast/specialmobs/zombies/frozen_zombies.toml
+config/FatherToast/specialmobs/zombies/giant_zombies.toml
+config/FatherToast/specialmobs/zombies/hungry_zombies.toml
+config/FatherToast/specialmobs/zombies/husk_zombies.toml
+config/FatherToast/specialmobs/zombies/mad_scientist_zombies.toml
+config/FatherToast/specialmobs/zombies/plague_zombies.toml
+config/FatherToast/specialmobs/zombified_piglins/brute_zombified_piglins.toml
+config/FatherToast/specialmobs/zombified_piglins/fishing_zombified_piglins.toml
+config/FatherToast/specialmobs/zombified_piglins/giant_zombified_piglins.toml
+config/FatherToast/specialmobs/zombified_piglins/hungry_zombified_piglins.toml
+config/FatherToast/specialmobs/zombified_piglins/knight_zombified_piglins.toml
+config/FatherToast/specialmobs/zombified_piglins/plague_zombified_piglins.toml
+config/FatherToast/specialmobs/zombified_piglins/vampire_zombified_piglins.toml
+
+#ignore minecraftinstance
+minecraftinstance.json

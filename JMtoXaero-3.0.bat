@@ -1,0 +1,1 @@
+java -jar JMtoXaero-3.0.jar "C:\Games\CurseForge\Minecraft\Instances\Main - The 2b2t.org Client\journeymap\data\mp\The~2b2t~org~Client~Main" "C:\Games\CurseForge\Minecraft\Instances\Brownpack\XaeroWorldMap\Multiplayer_2b2t.org" all

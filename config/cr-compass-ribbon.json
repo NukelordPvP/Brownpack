@@ -1,0 +1,21 @@
+{
+  "ribbonWidth": 90,
+  "ribbonRange": 240,
+  "ribbonYOffset": 0,
+  "fovHighlightOpacity": 30,
+  "fovHighlightColor": "white",
+  "fovHighlightShape": "line1",
+  "directionsCompassSlot": "none",
+  "directionsInNether": "normal",
+  "directionsInEnd": "normal",
+  "directionsOpacity": 40,
+  "directionsColor": "orangeWhite",
+  "mapMarkersMapSlot": "hotBar",
+  "mapMarkersOpacity": 80,
+  "mapMarkersMinimalDistance": 2,
+  "mapMarkersShowFrame": false,
+  "mapMarkerDescriptionOpacity": 0,
+  "mapMarkerDescriptionColor": "white",
+  "mapMarkerDescriptionStyle": "name",
+  "mapMarkerCharmAtlasCompat": "off"
+}

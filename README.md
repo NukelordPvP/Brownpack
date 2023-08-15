@@ -1,2 +1,2 @@
 # Brownpack
- Official Brownman Modpack
+ Official Brownman modpack

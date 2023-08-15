@@ -1,0 +1,1 @@
+java -jar JMWaypointsToXaero-1.0.jar "C:\Games\CurseForge\Minecraft\Instances\Main - The 2b2t.org Client\journeymap\data\mp\The~2b2t~org~Client~Main" "C:\Games\CurseForge\Minecraft\Instances\Brownpack\XaeroWaypoints\Multiplayer_2b2t.org"

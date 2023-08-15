@@ -1,0 +1,79 @@
+{
+  "name": "230 One Shot ",
+  "origin": [
+    -641,
+    232,
+    -611
+  ],
+  "current_version_id": 1,
+  "selection_normal": {
+    "name": "230 One Shot "
+  },
+  "selection_simple": {
+    "name": "230 One Shot ",
+    "current": "Unnamed",
+    "boxes": [
+      {
+        "pos1": [
+          -649,
+          222,
+          -617
+        ],
+        "pos2": [
+          -624,
+          255,
+          -592
+        ],
+        "name": "Unnamed"
+      }
+    ]
+  },
+  "last_seen_area": {
+    "name": "230 One Shot ",
+    "boxes": [
+      {
+        "pos1": [
+          -649,
+          222,
+          -617
+        ],
+        "pos2": [
+          -624,
+          255,
+          -592
+        ],
+        "name": "Unnamed"
+      }
+    ],
+    "origin": [
+      -649,
+      222,
+      -617
+    ]
+  },
+  "selection_mode": "SIMPLE",
+  "versions": [
+    {
+      "name": "230 One Shot ",
+      "file_name": "230 One Shot _00001",
+      "area_offset": [
+        -8,
+        -10,
+        -6
+      ],
+      "version": 1,
+      "timestamp": 1586197785898
+    },
+    {
+      "name": "230 One Shot ",
+      "file_name": "230 One Shot _00002",
+      "area_offset": [
+        -8,
+        -10,
+        -6
+      ],
+      "version": 2,
+      "timestamp": 1586197818506
+    }
+  ]
+}

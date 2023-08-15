@@ -1,0 +1,67 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = drippyloadingscreen/bomb.jpg
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  original_pos_size_calculation = true
+  x = 160
+  width = 534
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = 0bffa394-b789-4eb9-8249-b127946e098f1692072392831
+  y = 201
+  height = 132
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = 7ce32711-a68d-4c3a-a13b-58a48f024b4d1692072392840
+  y = -1000000
+  height = 0
+}
+
+customization {
+  custom_color_hex = #7c533e
+  orientation = top-left
+  hidden = false
+  original_pos_size_calculation = true
+  x = 160
+  width = 534
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = 93271950-fe6f-4e1c-9792-b0224bf236e01692072392840
+  y = 439
+  height = 10
+}
+
+customization {
+  path = drippyloadingscreen/brownpackbynukelord420.png
+  orientation = top-left
+  x = 140
+  width = 572
+  action = addtexture
+  actionid = 4f2ecd18-f149-4261-9a08-6d178ed177f21692072545908
+  y = 17
+  height = 100
+}
+
