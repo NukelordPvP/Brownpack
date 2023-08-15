@@ -57,6 +57,10 @@ servers.dat
 logs/
 crash-reports
 dumps
+indium-renderer.properties
+iris.properties
+fastload.properties
+rrp.properties
 *.ans
 
 #ignore realms larp
