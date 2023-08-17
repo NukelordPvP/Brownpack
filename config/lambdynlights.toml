@@ -108,6 +108,10 @@ mode = "fancy"
 				experience_bottle = true
 				snow_golem = true
 				mule = true
+				trident = true
+				endermite = true
+				wither_skull = true
+				wither = true
 
 			[light_sources.settings.entities.immersive_portals]
 				loading_indicator = true

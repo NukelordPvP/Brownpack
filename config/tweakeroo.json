@@ -236,7 +236,7 @@
     "gammaValueOriginal": 0.5,
     "hotbarScrollCurrentRow": 3,
     "slimeBlockSlipperinessOriginal": 0.800000011920929,
-    "snapAimLastYaw": 0.0
+    "snapAimLastYaw": 225.0
   },
   "Lists": {
     "blockTypeBreakRestrictionListType": "blacklist",
@@ -775,7 +775,7 @@
     "tweakPermanentSprint": false,
     "tweakPlacementGrid": false,
     "tweakPlacementLimit": false,
-    "tweakPlacementRestriction": false,
+    "tweakPlacementRestriction": true,
     "tweakPlacementRestrictionFirst": false,
     "tweakPlacementRestrictionHand": false,
     "tweakPlayerInventoryPeek": false,
@@ -879,7 +879,7 @@
       "keys": ""
     },
     "tweakFastBlockPlacement": {
-      "keys": "P"
+      "keys": ""
     },
     "tweakFastLeftClick": {
       "keys": ""
@@ -1020,7 +1020,7 @@
       "keys": ""
     },
     "tweakSnapAim": {
-      "keys": "Y",
+      "keys": "",
       "settings": {
         "activate_on": "BOTH",
         "context": "INGAME",
@@ -1059,7 +1059,16 @@
       "keys": ""
     },
     "tweakZoom": {
-      "keys": ""
+      "keys": "",
+      "settings": {
+        "activate_on": "BOTH",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": true,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
     }
   }
 }

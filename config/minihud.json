@@ -191,13 +191,13 @@
     "infoHoneyLevel": false,
     "infoHorseSpeed": false,
     "infoHorseJump": false,
-    "infoLightLevel": false,
+    "infoLightLevel": true,
     "infoLookingAtBlock": false,
     "infoLookingAtBlockInChunk": false,
     "infoLookingAtEntity": false,
-    "infoMemoryUsage": false,
+    "infoMemoryUsage": true,
     "infoMobCaps": false,
-    "infoLoadedChunksCount": false,
+    "infoLoadedChunksCount": true,
     "infoParticleCount": false,
     "infoPing": false,
     "infoRegionFile": false,
@@ -293,7 +293,7 @@
       "keys": ""
     },
     "infoLightLevel": {
-      "keys": ""
+      "keys": "L"
     },
     "infoLookingAtBlock": {
       "keys": ""
@@ -370,7 +370,7 @@
     "overlayBiomeBorder": false,
     "overlayBlockGrid": false,
     "overlayConduitRange": false,
-    "overlayLightLevel": false,
+    "overlayLightLevel": true,
     "overlayRandomTicksFixed": false,
     "overlayRandomTicksPlayer": false,
     "overlayRegionFile": false,

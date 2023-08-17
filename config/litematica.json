@@ -58,25 +58,25 @@
     "pasteReplaceBehavior": "none",
     "selectionCornersMode": "corners",
     "commandFillMaxVolume": 32768,
-    "commandLimitPerTick": 64,
+    "commandLimitPerTick": 24,
     "commandNameClone": "clone",
     "commandNameFill": "fill",
     "commandNameSetblock": "setblock",
     "commandNameSummon": "summon",
     "commandTaskInterval": 1,
-    "customSchematicBaseDirectory": "C:\\Games\\CurseForge\\Minecraft\\Instances\\Blood N Wine 2 Lite\\schematics",
+    "customSchematicBaseDirectory": "C:\\Games\\CurseForge\\Minecraft\\Instances\\Brownpack\\schematics",
     "easyPlaceSwapInterval": 0,
     "pickBlockableSlots": "1,2,3,4,5",
     "toolItem": "minecraft:stick",
     "printingMode": false,
     "printingInterval": 12,
-    "printingRange": 3.0,
+    "printingRange": 5.0,
     "replaceFluidSourceBlocks": true,
-    "stripLogs": false
+    "stripLogs": true
   },
   "Hotkeys": {
     "addSelectionBox": {
-      "keys": ""
+      "keys": "M,A"
     },
     "cloneSelection": {
       "keys": ""
@@ -85,7 +85,7 @@
       "keys": ""
     },
     "easyPlaceUseKey": {
-      "keys": ""
+      "keys": "BUTTON_2"
     },
     "easyPlaceToggle": {
       "keys": ""
@@ -100,7 +100,7 @@
       "keys": ""
     },
     "layerModeNext": {
-      "keys": "M,EQUAL",
+      "keys": "M,PAGE_UP",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -112,7 +112,7 @@
       }
     },
     "layerModePrevious": {
-      "keys": "M,MINUS",
+      "keys": "M,PAGE_DOWN",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -124,7 +124,7 @@
       }
     },
     "layerNext": {
-      "keys": "EQUAL",
+      "keys": "PAGE_UP",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -136,7 +136,7 @@
       }
     },
     "layerPrevious": {
-      "keys": "MINUS",
+      "keys": "PAGE_DOWN",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -160,7 +160,7 @@
       "keys": ""
     },
     "openGuiAreaSettings": {
-      "keys": "M,K",
+      "keys": "KP_MULTIPLY",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -190,7 +190,7 @@
       }
     },
     "openGuiPlacementSettings": {
-      "keys": "M,P",
+      "keys": "KP_SUBTRACT",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -202,46 +202,46 @@
       }
     },
     "openGuiSchematicPlacements": {
-      "keys": ""
+      "keys": "M,P"
     },
     "openGuiSchematicProjects": {
       "keys": ""
     },
     "openGuiSchematicVerifier": {
-      "keys": ""
+      "keys": "M,V"
     },
     "openGuiSelectionManager": {
-      "keys": ""
+      "keys": "M,S"
     },
     "openGuiSettings": {
-      "keys": ""
+      "keys": "M,C"
     },
     "operationModeChangeModifier": {
-      "keys": ""
+      "keys": "LEFT_CONTROL"
     },
     "pickBlockFirst": {
-      "keys": ""
+      "keys": "BUTTON_3"
     },
     "pickBlockLast": {
       "keys": ""
     },
     "pickBlockToggle": {
-      "keys": ""
+      "keys": "M,BUTTON_3"
     },
     "renderInfoOverlay": {
-      "keys": ""
+      "keys": "I"
     },
     "renderOverlayThroughBlocks": {
-      "keys": ""
+      "keys": "RIGHT_CONTROL"
     },
     "rerenderSchematic": {
-      "keys": ""
+      "keys": "F3,M"
     },
     "saveAreaAsInMemorySchematic": {
       "keys": ""
     },
     "saveAreaAsSchematicToFile": {
-      "keys": ""
+      "keys": "LEFT_CONTROL,LEFT_ALT,S"
     },
     "schematicEditBreakPlaceAll": {
       "keys": ""
@@ -280,10 +280,10 @@
       "keys": ""
     },
     "selectionNudgeModifier": {
-      "keys": ""
+      "keys": "LEFT_ALT"
     },
     "selectionModeCycle": {
-      "keys": ""
+      "keys": "LEFT_CONTROL,M"
     },
     "selectionShrink": {
       "keys": ""
@@ -298,7 +298,7 @@
       "keys": ""
     },
     "toggleAllRendering": {
-      "keys": ""
+      "keys": "M,R"
     },
     "toggleAreaSelectionBoxesRendering": {
       "keys": ""
@@ -346,31 +346,31 @@
       "keys": ""
     },
     "toolEnabledToggle": {
-      "keys": ""
+      "keys": "M,T"
     },
     "toolPlaceCorner1": {
-      "keys": ""
+      "keys": "BUTTON_1"
     },
     "toolPlaceCorner2": {
-      "keys": ""
+      "keys": "BUTTON_2"
     },
     "toolSelectElements": {
-      "keys": ""
+      "keys": "BUTTON_3"
     },
     "toolSelectModifierBlock1": {
-      "keys": ""
+      "keys": "LEFT_ALT"
     },
     "toolSelectModifierBlock2": {
-      "keys": ""
+      "keys": "LEFT_SHIFT"
     },
     "unloadCurrentSchematic": {
       "keys": ""
     },
     "print": {
-      "keys": ""
+      "keys": "V"
     },
     "togglePrintingMode": {
-      "keys": ""
+      "keys": "CAPS_LOCK"
     }
   },
   "InfoOverlays": {
