@@ -10,11 +10,11 @@ mode = "fancy"
 	block_entities = true
 	# Enable entities light source.
 	entities = true
+	self = true
 	# TNT lighting mode. May be off, simple or fancy.
 	tnt = "off"
 	# Creeper lighting mode. May be off, simple or fancy.
 	creeper = "simple"
-	self = true
 
 	[light_sources.settings]
 
@@ -32,9 +32,11 @@ mode = "fancy"
 				pig = true
 				skeleton = true
 				llama = true
+				mule = true
 				bat = true
 				husk = true
 				hoglin = true
+				experience_bottle = true
 				rabbit = true
 				firework_rocket = true
 				armor_stand = true
@@ -61,6 +63,7 @@ mode = "fancy"
 				glow_squid = true
 				glow_item_frame = false
 				squid = true
+				snowball = true
 				parrot = true
 				creeper = true
 				lightning_bolt = true
@@ -78,6 +81,7 @@ mode = "fancy"
 				zombified_piglin = true
 				blaze = true
 				piglin = true
+				endermite = true
 				cat = true
 				zombie = true
 				ender_pearl = true
@@ -89,6 +93,8 @@ mode = "fancy"
 				illusioner = true
 				pufferfish = true
 				potion = true
+				trident = true
+				wither_skull = true
 				wolf = true
 				villager = true
 				skeleton_horse = true
@@ -103,14 +109,8 @@ mode = "fancy"
 				cave_spider = true
 				cod = true
 				witch = true
-				spider = true
-				snowball = true
-				experience_bottle = true
 				snow_golem = true
-				mule = true
-				trident = true
-				endermite = true
-				wither_skull = true
+				spider = true
 				wither = true
 
 			[light_sources.settings.entities.immersive_portals]
