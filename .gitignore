@@ -73,6 +73,12 @@ dashloader-cache
 #fabric cache
 .fabric
 
+#replay cache
+.replay_cache
+
+#replay mod
+replay_recordings
+
 #litematica cache
 litematica
 
