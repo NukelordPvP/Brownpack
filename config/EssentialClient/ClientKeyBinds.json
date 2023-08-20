@@ -34,5 +34,9 @@
       "key.keyboard.f3"
     ],
     "canUseInGui": false
+  },
+  "": {
+    "keys": [],
+    "canUseInGui": false
   }
 }

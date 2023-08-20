@@ -819,7 +819,7 @@
       "keys": ""
     },
     "tweakAimLock": {
-      "keys": ""
+      "keys": "LEFT_ALT,L"
     },
     "tweakAngelBlock": {
       "keys": ""
@@ -1020,7 +1020,7 @@
       "keys": ""
     },
     "tweakSnapAim": {
-      "keys": "",
+      "keys": "LEFT_ALT,Y",
       "settings": {
         "activate_on": "BOTH",
         "context": "INGAME",

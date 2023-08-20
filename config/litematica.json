@@ -55,7 +55,7 @@
     "signTextPaste": true,
     "toolItemEnabled": true,
     "unhideSchematicVCS": false,
-    "pasteReplaceBehavior": "none",
+    "pasteReplaceBehavior": "all",
     "selectionCornersMode": "corners",
     "commandFillMaxVolume": 32768,
     "commandLimitPerTick": 24,
@@ -91,7 +91,7 @@
       "keys": ""
     },
     "executeOperation": {
-      "keys": ""
+      "keys": "KP_0"
     },
     "invertGhostBlockRenderState": {
       "keys": ""
@@ -370,7 +370,7 @@
       "keys": "V"
     },
     "togglePrintingMode": {
-      "keys": "CAPS_LOCK"
+      "keys": "KP_ENTER"
     }
   },
   "InfoOverlays": {

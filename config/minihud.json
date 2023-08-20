@@ -191,7 +191,7 @@
     "infoHoneyLevel": false,
     "infoHorseSpeed": true,
     "infoHorseJump": true,
-    "infoLightLevel": false,
+    "infoLightLevel": true,
     "infoLookingAtBlock": false,
     "infoLookingAtBlockInChunk": false,
     "infoLookingAtEntity": false,
@@ -293,7 +293,7 @@
       "keys": ""
     },
     "infoLightLevel": {
-      "keys": "L"
+      "keys": "F7"
     },
     "infoLookingAtBlock": {
       "keys": ""

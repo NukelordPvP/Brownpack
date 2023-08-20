@@ -112,6 +112,7 @@ mode = "fancy"
 				snow_golem = true
 				spider = true
 				wither = true
+				chest_boat = true
 
 			[light_sources.settings.entities.immersive_portals]
 				loading_indicator = true

@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "cooldown": 4,
+  "jumpEnabled": true,
+  "jumpCooldown": 2
+}

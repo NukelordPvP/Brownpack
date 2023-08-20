@@ -2,7 +2,7 @@
   "Sprint.KeyToggle.Key": "key.keyboard.left.control",
   "Sprint.Mode": "TAP_TO_START",
   "Sprint.DoubleTapForward": true,
-  "Sprint.ResumeAfterHittingObstacle": false,
+  "Sprint.ResumeAfterHittingObstacle": true,
   "Sneak.KeyToggle.Key": "key.keyboard.unknown",
   "Sneak.SmoothCamera": true,
   "Flight.KeyToggle.Creative.Key": "key.keyboard.unknown",
