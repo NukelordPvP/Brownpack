@@ -113,6 +113,7 @@ mode = "fancy"
 				spider = true
 				wither = true
 				chest_boat = true
+				warden = true
 
 			[light_sources.settings.entities.immersive_portals]
 				loading_indicator = true

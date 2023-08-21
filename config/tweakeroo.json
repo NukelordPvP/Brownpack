@@ -1,6 +1,6 @@
 {
   "Fixes": {
-    "elytraFix": true,
+    "elytraFix": false,
     "macHorizontalScroll": false,
     "ravagerClientBlockBreakFix": true
   },
