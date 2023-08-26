@@ -33,6 +33,7 @@ impossible_data
 ViaFabricPlus
 userdata
 worldedit
+itemscroller
 *.launch
 
 #ignore potentially private meteor and baritone files
