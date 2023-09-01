@@ -211,3 +211,9 @@ config/FatherToast/specialmobs/zombified_piglins/vampire_zombified_piglins.toml
 
 #ignore minecraftinstance
 minecraftinstance.json
+
+#ignore replaymod screenshot settings
+replaymod-screenshotsettings.json
+
+#ignore waila backups
+blacklist.json_2023*

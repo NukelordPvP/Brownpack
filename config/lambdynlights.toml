@@ -115,6 +115,7 @@ mode = "fancy"
 				snow_golem = true
 				spider = true
 				wither = true
+				allay = true
 
 			[light_sources.settings.entities.immersive_portals]
 				loading_indicator = true
