@@ -70,7 +70,7 @@ renderAllSets:false
 playerArrowOpacity:100
 waypointsBottom:false
 minimapShape:0
-lightOverlayType:-1
+lightOverlayType:0
 lightOverlayMaxLight:7
 lightOverlayMinLight:0
 lightOverlayColor:13
