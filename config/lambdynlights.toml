@@ -117,6 +117,7 @@ mode = "fancy"
 				wither = true
 				allay = true
 				small_fireball = true
+				camel = true
 
 			[light_sources.settings.entities.immersive_portals]
 				loading_indicator = true

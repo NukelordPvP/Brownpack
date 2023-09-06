@@ -1,3 +1,6 @@
+#Ignore Cache
+Cobtopia-4-Cache
+
 #Ignore Server_Saves_Backups_Archives
 0_Server_Saves_Backups/*.zip
 0_Server_Saves_Backups/*.7z
