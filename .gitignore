@@ -160,8 +160,8 @@ config/bloodnwine2resources/extraction_cache/extraction_cache_Blood-N-Wine-2-Men
 config/bloodnwine2resources/extraction_cache/extraction_cache_Blood-N-Wine-2-Music-II.bomb
 config/bloodnwine2resources/extraction_cache/extraction_cache_Blood-N-Wine-2-Music.bomb
 
-#ignore options.txt
-options.txt
+#ignore ONLY Brownpack/options.txt
+Brownpack/options.txt
 
 #ignore constantly changing files every time the game is booted
 config/FatherToast/specialmobs/drowned/abyssal_drowned.toml
