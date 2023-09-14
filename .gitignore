@@ -8,19 +8,10 @@ Cobtopia-4-Cache
 0_Server_Saves_Backups/*.tar
 
 #Ignore Blood-N-Wine-2-Server-Export-Local
-Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Local/*
+Brownpack-Export/Brownpack-Local-Export/*
 
 #Ignore Blood-N-Wine-2-Server-Export
-Blood-N-Wine-2-Export/Blood-N-Wine-2-Server-Export/*
-
-#Ignore Blood-N-Wine-2-Technic-Export
-Blood-N-Wine-2-Export/Blood-N-Wine-2-Technic-Export/*
-
-#Ignore Blood-N-Wine-2-Curseforge-Export
-Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export/*
-
-#Ignore Blood-N-Wine-2-Modrinth-Export
-Blood-N-Wine-2-Export/Blood-N-Wine-2-Modrinth-Export/*
+Brownpack-Export/Brownpack-Local-Symlink-Export/*
 
 #Ignore folders
 XaeroWaypoints
@@ -38,7 +29,6 @@ ViaFabricPlus
 userdata
 worldedit
 itemscroller
-Brownpack-Export
 *.launch
 
 #ignore potentially private meteor and baritone files
