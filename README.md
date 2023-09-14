@@ -5,9 +5,10 @@
  https://github.com/arnobpl/SymlinkCreator
 
 # How to symlink for folders
-# Install this program -> select source folder ex: /Brownpack/screenshots ->. select output folder ex: /Brownpack - Alt/
+Install this program -> select source folder ex: /Brownpack/screenshots ->. select output folder ex: /Brownpack - Alt/
+
 # How to symlink for files
-# Install this program -> select source file ex: /Brownpack/servers.dat ->. select output folder ex: /Brownpack - Alt/
+Install this program -> select source file ex: /Brownpack/servers.dat ->. select output folder ex: /Brownpack - Alt/
 
 # List of folders to symlink
  baritone
