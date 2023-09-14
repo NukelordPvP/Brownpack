@@ -7,9 +7,9 @@
 1. Run Brownpack-Export.jar and Brownpack-Export-Symlink.jar (e.g., `/Brownpack/Brownpack-Export`).
 2. Compare your export to the example images export.
 3. After generating `/Brownpack/Brownpack-Export/Brownpack-Local-Symlink-Export`, copy the files to a new Minecraft instance called `/Brownpack-Alt-0/`.
-4. Follow the steps to create the symlink folders and paste them into `/Brownpack-Alt-0/`.
+4. Follow the steps below to create the symlink folders and files then paste them into `/Brownpack-Alt-0/`. You can create as many instances as you want (e.g., `/Brownpack-Alt-1/`).
 
-## SymlinkCreator - Useful for Having Alt Account MC Instances
+## SymlinkCreator Link - Useful for Having Alt Account MC Instances
 SymlinkCreator is a tool that helps you globally sync things like worldmap, minimap, and baritone data. You can find it on GitHub: [SymlinkCreator](https://github.com/arnobpl/SymlinkCreator)
 
 ### How to Symlink for Folders
