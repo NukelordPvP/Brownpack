@@ -1,0 +1,150 @@
+key_key.attack:key.mouse.left:NONE
+key_key.use:key.mouse.right:NONE
+key_key.forward:key.keyboard.w:NONE
+key_key.left:key.keyboard.a:NONE
+key_key.back:key.keyboard.s:NONE
+key_key.right:key.keyboard.d:NONE
+key_key.jump:key.keyboard.space:NONE
+key_key.sneak:key.keyboard.left.shift:NONE
+key_key.sprint:key.keyboard.unknown:NONE
+key_key.drop:key.keyboard.q:NONE
+key_key.inventory:key.keyboard.e:NONE
+key_key.chat:key.keyboard.t:NONE
+key_key.playerlist:key.keyboard.tab:NONE
+key_key.pickItem:key.mouse.middle:NONE
+key_key.command:key.keyboard.slash:NONE
+key_key.socialInteractions:key.keyboard.unknown:NONE
+key_key.screenshot:key.keyboard.f2:NONE
+key_key.togglePerspective:key.keyboard.f5:NONE
+key_key.smoothCamera:key.keyboard.unknown:NONE
+key_key.fullscreen:key.keyboard.f11:NONE
+key_key.spectatorOutlines:key.keyboard.unknown:NONE
+key_key.swapOffhand:key.keyboard.f:NONE
+key_key.saveToolbarActivator:key.keyboard.unknown:NONE
+key_key.loadToolbarActivator:key.keyboard.unknown:NONE
+key_key.advancements:key.keyboard.unknown:NONE
+key_key.hotbar.1:key.keyboard.1:NONE
+key_key.hotbar.2:key.keyboard.2:NONE
+key_key.hotbar.3:key.keyboard.3:NONE
+key_key.hotbar.4:key.keyboard.4:NONE
+key_key.hotbar.5:key.keyboard.5:NONE
+key_key.hotbar.6:key.keyboard.6:NONE
+key_key.hotbar.7:key.keyboard.7:NONE
+key_key.hotbar.8:key.keyboard.8:NONE
+key_key.hotbar.9:key.keyboard.9:NONE
+key_key.meteor-client.open-gui:key.keyboard.right.shift:NONE
+key_key.meteor-client.open-commands:key.keyboard.comma:NONE
+key_key.bettercontrols.toggle_sprint:key.keyboard.left.control:NONE
+key_key.bettercontrols.toggle_sneak:key.keyboard.unknown:NONE
+key_key.bettercontrols.toggle_flight:key.keyboard.unknown:NONE
+key_key.bettercontrols.toggle_forward:key.keyboard.caps.lock:NONE
+key_key.bettercontrols.toggle_jump:key.keyboard.unknown:NONE
+key_key.bettercontrols.reset_all_toggles:key.keyboard.unknown:NONE
+key_key.bettercontrols.open_menu:key.keyboard.unknown:NONE
+key_Reload Menu | CTRL + ALT + :key.keyboard.r:NONE
+key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c:NONE
+key_key.firstperson.toggle:key.keyboard.f6:NONE
+key_jsmacros.menu:key.keyboard.k:NONE
+key_blanket-client-tweaks.keys.rotateMinecartKey:key.keyboard.unknown:NONE
+key_key.cleanview.togglecleanview:key.keyboard.unknown:NONE
+key_key.dynamic_fps.toggle_forced:key.keyboard.unknown:NONE
+key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown:NONE
+key_equipmentcompare.key.showTooltips:key.keyboard.left.shift:NONE
+key_key.open_muffler_gui:key.keyboard.unknown:NONE
+key_key.inventoryhud.toggle:key.keyboard.i:NONE
+key_key.inventoryhud.openconfig:key.keyboard.o:NONE
+key_key.inventoryhud.togglepot:key.keyboard.unknown:NONE
+key_key.inventoryhud.togglearm:key.keyboard.unknown:NONE
+key_key.inventoryhud.toggleall:key.keyboard.unknown:NONE
+key_key.modmenu.open_menu:key.keyboard.unknown:NONE
+key_key.moremousekeybinds.holdattack:key.keyboard.unknown:NONE
+key_key.moremousekeybinds.holduse:key.keyboard.unknown:NONE
+key_key.moremousekeybinds.periodicattack:key.keyboard.unknown:NONE
+key_key.moremousekeybinds.toggleholdtoattack:key.keyboard.unknown:NONE
+key_key.moremousekeybinds.togglecancelswingwhencoolingdown:key.keyboard.unknown:NONE
+key_key.moremousekeybinds.togglecancelswingwhennotarget:key.keyboard.unknown:NONE
+key_key.replaymod.playeroverview:key.keyboard.b:NONE
+key_key.replaymod.lighting:key.keyboard.z:NONE
+key_key.replaymod.quickmode:key.keyboard.q:NONE
+key_key.replaymod.settings:key.keyboard.unknown:NONE
+key_key.replaymod.marker:key.keyboard.m:NONE
+key_key.replaymod.thumbnail:key.keyboard.n:NONE
+key_key.replaymod.playpause:key.keyboard.p:NONE
+key_key.replaymod.rollclockwise:key.keyboard.l:NONE
+key_key.replaymod.rollcounterclockwise:key.keyboard.j:NONE
+key_key.replaymod.resettilt:key.keyboard.k:NONE
+key_key.replaymod.pathpreview:key.keyboard.h:NONE
+key_key.replaymod.keyframerepository:key.keyboard.x:NONE
+key_key.replaymod.clearkeyframes:key.keyboard.c:NONE
+key_key.replaymod.synctimeline:key.keyboard.v:NONE
+key_key.replaymod.positionkeyframe:key.keyboard.i:NONE
+key_key.replaymod.positiononlykeyframe:key.keyboard.unknown:NONE
+key_key.replaymod.timekeyframe:key.keyboard.o:NONE
+key_key.replaymod.bothkeyframes:key.keyboard.unknown:NONE
+key_key.waila.config:key.keyboard.unknown:NONE
+key_key.waila.show_overlay:key.keyboard.unknown:NONE
+key_key.waila.toggle_liquid:key.keyboard.unknown:NONE
+key_key.waila.show_recipe_input:key.keyboard.unknown:NONE
+key_key.waila.show_recipe_output:key.keyboard.unknown:NONE
+key_Fast Mapping:key.keyboard.unknown:NONE
+key_Baritone Goal Waypoint:key.keyboard.unknown:NONE
+key_Waystones Sync:key.keyboard.unknown:NONE
+key_Persist WM Dim Switch:key.keyboard.unknown:NONE
+key_Transparent Obsidian Roof:key.keyboard.unknown:NONE
+key_Skip Background Render:key.keyboard.unknown:NONE
+key_NewChunks Highlighting:key.keyboard.unknown:NONE
+key_Save/Load NewChunks to Disk:key.keyboard.unknown:NONE
+key_OldChunks Highlighting:key.keyboard.unknown:NONE
+key_OldChunks Inverse:key.keyboard.unknown:NONE
+key_Save/Load OldChunks to Disk:key.keyboard.unknown:NONE
+key_Portal Highlights:key.keyboard.unknown:NONE
+key_PortalSkip Detection:key.keyboard.unknown:NONE
+key_PortalSkip NewChunks:key.keyboard.unknown:NONE
+key_PortalSkip OldChunks Inverse:key.keyboard.unknown:NONE
+key_Prefer Overworld Waypoints:key.keyboard.unknown:NONE
+key_Show Waypoint Distances:key.keyboard.unknown:NONE
+key_null OW Dim Dir:key.keyboard.unknown:NONE
+key_Nether Cave Fix:key.keyboard.unknown:NONE
+key_Cross Dimension Teleport:key.keyboard.unknown:NONE
+key_Show Render Distance:key.keyboard.unknown:NONE
+key_Show Render Distance WorldMap:key.keyboard.unknown:NONE
+key_Always Render Player Name:key.keyboard.unknown:NONE
+key_Always Render Player Icon:key.keyboard.unknown:NONE
+key_Fix Main Entity Dot:key.keyboard.unknown:NONE
+key_Transparent Background:key.keyboard.unknown:NONE
+key_Switch to Nether:key.keyboard.unknown:NONE
+key_Switch to Overworld:key.keyboard.unknown:NONE
+key_Switch to End:key.keyboard.unknown:NONE
+key_Waypoint Beacons:key.keyboard.unknown:NONE
+key_gui.xaero_switch_waypoint_set:key.keyboard.unknown:NONE
+key_gui.xaero_instant_waypoint:key.keyboard.keypad.add:NONE
+key_gui.xaero_toggle_slime:key.keyboard.unknown:NONE
+key_gui.xaero_toggle_grid:key.keyboard.unknown:NONE
+key_gui.xaero_toggle_waypoints:key.keyboard.unknown:NONE
+key_gui.xaero_toggle_map_waypoints:key.keyboard.unknown:NONE
+key_gui.xaero_toggle_map:key.keyboard.unknown:NONE
+key_gui.xaero_enlarge_map:key.mouse.4:NONE
+key_gui.xaero_waypoints_key:key.keyboard.unknown:NONE
+key_gui.xaero_zoom_in:key.keyboard.unknown:NONE
+key_gui.xaero_zoom_out:key.keyboard.unknown:NONE
+key_gui.xaero_new_waypoint:key.keyboard.b:NONE
+key_gui.xaero_display_all_sets:key.keyboard.unknown:NONE
+key_gui.xaero_toggle_light_overlay:key.keyboard.f7:NONE
+key_gui.xaero_toggle_entity_radar:key.keyboard.unknown:NONE
+key_gui.xaero_reverse_entity_radar:key.keyboard.unknown:NONE
+key_gui.xaero_toggle_manual_cave_mode:key.keyboard.unknown:NONE
+key_gui.xaero_alternative_list_players:key.keyboard.unknown:NONE
+key_gui.xaero_toggle_tracked_players:key.keyboard.unknown:NONE
+key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown:NONE
+key_gui.xaero_minimap_settings:key.keyboard.unknown:NONE
+key_gui.xaero_open_map:key.keyboard.n:NONE
+key_gui.xaero_open_settings:key.keyboard.right.bracket:NONE
+key_gui.xaero_map_zoom_in:key.keyboard.unknown:NONE
+key_gui.xaero_map_zoom_out:key.keyboard.unknown:NONE
+key_gui.xaero_quick_confirm:key.keyboard.unknown:NONE
+key_iris.keybind.reload:key.keyboard.unknown:NONE
+key_iris.keybind.toggleShaders:key.keyboard.unknown:NONE
+key_iris.keybind.shaderPackSelection:key.keyboard.unknown:NONE
+key_pistorder.clear_display:key.keyboard.p:NONE
+key_[Fabrication] Toggle Stance:key.keyboard.unknown:NONE
+key_[Fabrication] Toggle/Hold Sprint:key.keyboard.unknown:NONE

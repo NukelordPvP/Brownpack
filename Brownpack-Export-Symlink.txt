@@ -84,7 +84,7 @@ SOURCE_FILES:
 # List of client-side config files to be removed from the copied folder.
 # Files should be specified relative to the destination folder.
 CONFIG_LIST:
-
+  IRC2b2tFabric-1.0.3-1.20.1.jar
 #Deletes? confirmed!
 # List of folders to be deleted from the copied folder.
 # Folders should be specified relative to the destination folder.
