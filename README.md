@@ -1,38 +1,39 @@
-# Brownpack
- Official Brownman modpack
+# Brownpack - Official Brownman Modpack
 
-# SymlinkCreator Useful for having alt account mc instances but globally sync things like worldmap, minimap and baritone data.
- https://github.com/arnobpl/SymlinkCreator
+## Brownpack Keybindings Docs
+[Link to Keybindings Documentation](https://docs.google.com/spreadsheets/d/1Je7ERexaVkZ2_LdwMWhTmKsgWHRrg4BAP9He4hxWVG4/edit#gid=0)
 
-# How to symlink for folders
-Install this program -> select source folder ex: /Brownpack/screenshots ->. select output folder ex: /Brownpack - Alt/
+## SymlinkCreator - Useful for Having Alt Account MC Instances
+SymlinkCreator is a tool that helps you globally sync things like worldmap, minimap, and baritone data. You can find it on GitHub: [SymlinkCreator](https://github.com/arnobpl/SymlinkCreator)
 
-# How to symlink for files
-Install this program -> select source file ex: /Brownpack/servers.dat ->. select output folder ex: /Brownpack - Alt/
+### How to Symlink for Folders
+Install this program, select the source folder (e.g., `/Brownpack/screenshots`), and select the output folder (e.g., `/Brownpack-Alt-0/`).
 
-# List of folders to symlink
- baritone
- data
- drippyloadingscreen
- meteor-client
- profileImage
- replay_recordings
- resourcepacks
- saves
- schematics
- screenshots
- shaderpacks
- XaeroWaypoints
- XaeroWaypoints_BACKUP032021
- XaeroWorldMap
+### How to Symlink for Files
+Install this program, select the source file (e.g., `/Brownpack/servers.dat`), and select the output folder (e.g., `/Brownpack-Alt-0/`).
 
-# List of files to symlink
- servers.dat
+### List of Folders to Symlink
+- baritone
+- data
+- drippyloadingscreen
+- meteor-client
+- profileImage
+- replay_recordings
+- resourcepacks
+- saves
+- schematics
+- screenshots
+- shaderpacks
+- XaeroWaypoints
+- XaeroWaypoints_BACKUP032021
+- XaeroWorldMap
 
- # XaeroPlus
- # Read Other Useful tools section on the github page
- https://github.com/rfresh2/XaeroPlus
+### List of Files to Symlink
+- servers.dat
 
- # Convert Journeymap waypoints and wordmap data to Xaero format
- https://github.com/Entropy5/JMtoXaero
- https://github.com/rfresh2/JMWaypointsToXaero
+## XaeroPlus
+For more useful tools and information, visit the [XaeroPlus GitHub](https://github.com/rfresh2/XaeroPlus).
+
+## Convert Journeymap Waypoints and Worldmap Data to Xaero Format
+- [JMtoXaero GitHub](https://github.com/Entropy5/JMtoXaero)
+- [JMWaypointsToXaero GitHub](https://github.com/rfresh2/JMWaypointsToXaero)
