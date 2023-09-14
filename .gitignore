@@ -46,7 +46,7 @@ waypoints
 cache
 ESM
 
-#ignore servers.dat
+#ignore all servers.dat
 servers.dat
 
 #logs
