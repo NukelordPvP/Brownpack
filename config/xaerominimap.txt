@@ -7,7 +7,7 @@ debugEntityIcons:false
 debugEntityVariantIds:false
 radarHideInvisibleEntities:true
 #INGAME SETTINGS (DO NOT EDIT!)
-updateNotification:true
+updateNotification:false
 minimap:true
 caveMaps:2
 caveZoom:1

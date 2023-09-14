@@ -31,6 +31,13 @@ globalExecutorParallelism = "default"
 		maxViewDistance = "default"
 
 [fixes]
+	# (Default: true)  
+	#  Whether to disable the shutdown hook of log4j2 on dedicated servers.
+	#  Enabling this also makes the JVM exit when the dedicated server is considered fully shut down.
+	#  This option have no effect on client-side.
+	#  We has historically been doing this, and this config option allows you to disable this behavior.
+	# 
+	disableLoggingShutdownHook = "default"
 	# (Default: true) Enforces safe world random access.  
 	# This feature detects unsafe off-thread world random access, helping to find the causes  
 	# of mysterious "Accessing LegacyRandomSource from multiple threads" crash.  
@@ -108,6 +115,8 @@ globalExecutorParallelism = "default"
 	# Whether to use the fast reduced allocation chunk serializer
 	# (may cause incompatibility with other mods)
 	# 
+	# Set to false for the following reasons: 
+	# Incompatible with architectury@9.1.12 (*) (defined in c2me) 
 	gcFreeChunkSerializer = "default"
 	# (Default: false) Whether to use the optimized implementation of IO system
 	replaceImpl = "default"

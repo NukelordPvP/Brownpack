@@ -1,0 +1,88 @@
+
+# command line argument to rename the config CopyAndModifyFolder uses
+# java com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder my_custom_config.txt
+
+# Configuration file for CopyAndModifyFolder
+
+# Set the level of the main directory in relation to the current directory.
+# Positive value: Main directory is one or more levels above the current directory.
+# Negative value: Main directory is one or more levels below the current directory.
+# 0: Main directory is the same as the current directory (default).
+MAIN_DIRECTORY_LEVEL:0
+
+# Set whether to run the program from the 'mods' folder.
+# If set to true, the main directory will be one level above the 'mods' folder.
+# If set to false (default), the program runs from the current directory.
+RUN_FROM_MODS:false
+
+# Set the destination folder for copied files and modified folders.
+# If USE_CUSTOM_OUTPUT_DIR is set to false, this option will be used as the destination folder. // this is now inverted
+# If USE_CUSTOM_OUTPUT_DIR is set to true, the default destination folder will be 'config-Server'.
+GLOBAL_OVERRIDE_CUSTOM_OUTPUT_DIR:Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export
+
+# Set whether to use a custom output directory for each source folder.
+# If set to true, each source folder will have its own output directory specified in CUSTOM_OUTPUT_DIR.
+# If set to false (default), all source folders will use the destination folder specified above.
+USE_CUSTOM_OUTPUT_DIR:false
+
+#Copys? confirmed!
+#Checks for deletions? confirmed!
+# Custom output directory for each source folder (if USE_CUSTOM_OUTPUT_DIR is set to true).
+SOURCE_FOLDERS:
+
+  - SOURCE=./config
+    CUSTOM_OUTPUT_DIR=./config
+
+  - SOURCE=./data
+    CUSTOM_OUTPUT_DIR=./data
+
+  - SOURCE=./drippyloadingscreen
+    CUSTOM_OUTPUT_DIR=./drippyloadingscreen
+
+  - SOURCE=./resourcepacks
+    CUSTOM_OUTPUT_DIR=./resourcepacks
+
+  - SOURCE=./mods
+    CUSTOM_OUTPUT_DIR=./mods
+
+  - SOURCE=./profileImage
+    CUSTOM_OUTPUT_DIR=./profileImage
+
+  - SOURCE=./schematics
+    CUSTOM_OUTPUT_DIR=./schematics
+
+  - SOURCE=./shaderpacks
+    CUSTOM_OUTPUT_DIR=./shaderpacks
+
+#Copys? confirmed!
+#Checks for deletions? NO
+# Custom output directory for each source file (if USE_CUSTOM_OUTPUT_DIR is set to true).
+SOURCE_FILES:
+
+  - SOURCE=/!_brownpack-fabric-0.14.22
+    CUSTOM_OUTPUT_DIR=/!_brownpack-version-0.2
+
+  - SOURCE=/!_copyright.txt
+    CUSTOM_OUTPUT_DIR=/!_copyright.txt
+
+  - SOURCE=/servers.dat
+    CUSTOM_OUTPUT_DIR=/servers.dat
+
+  - SOURCE=/.curseclient
+    CUSTOM_OUTPUT_DIR=/.curseclient
+
+  - SOURCE=/ds_private_storage.json
+    CUSTOM_OUTPUT_DIR=/ds_private_storage.json
+
+  - SOURCE=/irisUpdateInfo.json
+    CUSTOM_OUTPUT_DIR=/irisUpdateInfo.json
+    
+#Deletes? confirmed!
+# List of client-side config files to be removed from the copied folder.
+# Files should be specified relative to the destination folder.
+CONFIG_LIST:
+
+#Deletes? confirmed!
+# List of folders to be deleted from the copied folder.
+# Folders should be specified relative to the destination folder.
+FOLDER_LIST:

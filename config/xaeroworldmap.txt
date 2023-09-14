@@ -1,5 +1,5 @@
 ignoreUpdate:163
-updateNotification:true
+updateNotification:false
 differentiateByServerAddress:true
 caveMapsAllowed:true
 debug:false
@@ -84,6 +84,6 @@ globalVersion:1
 [XP] Prefer Overworld Waypoints:true
 [XP] Show Waypoint Distances:true
 [XP] null OW Dim Dir:true
-[XP] Data Dir Mode:0
+[XP] Data Dir Mode:2
 [XP] Nether Cave Fix:true
 [XP] Cross Dimension Teleport:true

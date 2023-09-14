@@ -25,6 +25,7 @@ Blood-N-Wine-2-Export/Blood-N-Wine-2-Modrinth-Export/*
 #Ignore folders
 XaeroWaypoints
 XaeroWaypoints_BACKUP032021
+XaeroFilesBackup
 XaeroWorldMap
 capes
 downloads
@@ -37,6 +38,7 @@ ViaFabricPlus
 userdata
 worldedit
 itemscroller
+Brownpack-Export
 *.launch
 
 #ignore potentially private meteor and baritone files
