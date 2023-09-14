@@ -76,6 +76,9 @@ SOURCE_FILES:
 
   - SOURCE=/irisUpdateInfo.json
     CUSTOM_OUTPUT_DIR=/irisUpdateInfo.json
+
+  - SOURCE=/minecraftinstance.json
+    CUSTOM_OUTPUT_DIR=/minecraftinstance.json
     
 #Deletes? confirmed!
 # List of client-side config files to be removed from the copied folder.
