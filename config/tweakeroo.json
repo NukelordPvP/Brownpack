@@ -232,7 +232,7 @@
     }
   },
   "Internal": {
-    "flySpeedPreset": 3,
+    "flySpeedPreset": 1,
     "gammaValueOriginal": 0.5,
     "hotbarScrollCurrentRow": 3,
     "slimeBlockSlipperinessOriginal": 0.800000011920929,
@@ -795,7 +795,7 @@
     "tweakSneak_1.15.2": false,
     "tweakSpectatorTeleport": false,
     "tweakStructureBlockLimit": false,
-    "tweakSwapAlmostBrokenTools": true,
+    "tweakSwapAlmostBrokenTools": false,
     "tweakTabCompleteCoordinate": false,
     "tweakToolSwitch": false,
     "tweakWeaponSwitch": false,
