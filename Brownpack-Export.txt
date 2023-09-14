@@ -18,7 +18,7 @@ RUN_FROM_MODS:false
 # Set the destination folder for copied files and modified folders.
 # If USE_CUSTOM_OUTPUT_DIR is set to false, this option will be used as the destination folder. // this is now inverted
 # If USE_CUSTOM_OUTPUT_DIR is set to true, the default destination folder will be 'config-Server'.
-GLOBAL_OVERRIDE_CUSTOM_OUTPUT_DIR:Blood-N-Wine-2-Export/Blood-N-Wine-2-Curseforge-Export
+GLOBAL_OVERRIDE_CUSTOM_OUTPUT_DIR:Brownpack-Export/Brownpack-Local-Export
 
 # Set whether to use a custom output directory for each source folder.
 # If set to true, each source folder will have its own output directory specified in CUSTOM_OUTPUT_DIR.
@@ -60,6 +60,9 @@ SOURCE_FOLDERS:
 SOURCE_FILES:
 
   - SOURCE=/!_brownpack-fabric-0.14.22
+    CUSTOM_OUTPUT_DIR=/!_brownpack-fabric-0.14.22
+
+  - SOURCE=/!_brownpack-version-0.2
     CUSTOM_OUTPUT_DIR=/!_brownpack-version-0.2
 
   - SOURCE=/!_copyright.txt
@@ -70,9 +73,6 @@ SOURCE_FILES:
 
   - SOURCE=/.curseclient
     CUSTOM_OUTPUT_DIR=/.curseclient
-
-  - SOURCE=/ds_private_storage.json
-    CUSTOM_OUTPUT_DIR=/ds_private_storage.json
 
   - SOURCE=/irisUpdateInfo.json
     CUSTOM_OUTPUT_DIR=/irisUpdateInfo.json

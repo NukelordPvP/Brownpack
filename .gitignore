@@ -112,6 +112,9 @@ servers.dat_old
 #.bak files
 *.bak
 
+#ignore defaultsettings private storage
+ds_private_storage.json
+
 #ignore temp files
 *.ogg_
 *_.ogg
