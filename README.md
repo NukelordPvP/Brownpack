@@ -3,14 +3,24 @@
 ## Brownpack Keybindings Docs
 [Link to Keybindings Documentation](https://docs.google.com/spreadsheets/d/1Je7ERexaVkZ2_LdwMWhTmKsgWHRrg4BAP9He4hxWVG4/edit#gid=0)
 
+## Important: How to Create a New Brownpack Instance
+1. Run Brownpack-Export.jar and Brownpack-Export-Symlink.jar (e.g., `/Brownpack/Brownpack-Export`).
+2. Compare your export to the example images export.
+3. After generating `/Brownpack/Brownpack-Export/Brownpack-Local-Symlink-Export`, copy the files to a new Minecraft instance called `/Brownpack-Alt-0/`.
+4. Follow the steps to create the symlink folders and paste them into `/Brownpack-Alt-0/`.
+
 ## SymlinkCreator - Useful for Having Alt Account MC Instances
 SymlinkCreator is a tool that helps you globally sync things like worldmap, minimap, and baritone data. You can find it on GitHub: [SymlinkCreator](https://github.com/arnobpl/SymlinkCreator)
 
 ### How to Symlink for Folders
-Install this program, select the source folder (e.g., `/Brownpack/screenshots`), and select the output folder (e.g., `/Brownpack-Alt-0/`).
+1. Install this program.
+2. Select the source folder (e.g., `/Brownpack/screenshots`).
+3. Select the output folder (e.g., `/Brownpack-Alt-0/`).
 
 ### How to Symlink for Files
-Install this program, select the source file (e.g., `/Brownpack/servers.dat`), and select the output folder (e.g., `/Brownpack-Alt-0/`).
+1. Install this program.
+2. Select the source file (e.g., `/Brownpack/servers.dat`).
+3. Select the output folder (e.g., `/Brownpack-Alt-0/`).
 
 ### List of Folders to Symlink
 - baritone
