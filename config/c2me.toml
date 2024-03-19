@@ -19,7 +19,7 @@ version = 3
 #  Available variables: is_windows, is_j9vm, is_client, cpus, mem_gb
 # 
 defaultGlobalExecutorParallelismExpression = "default"
-# (Default: 1) Configures the parallelism of global executor
+# (Default: 2) Configures the parallelism of global executor
 globalExecutorParallelism = "default"
 
 [clientSideConfig]
@@ -27,7 +27,7 @@ globalExecutorParallelism = "default"
 	[clientSideConfig.modifyMaxVDConfig]
 		# (Default: true) Whether to modify maximum view distance
 		enabled = "default"
-		# (Default: 40) Max render distance allowed in game options
+		# (Default: 46) Max render distance allowed in game options
 		maxViewDistance = "default"
 
 [fixes]
@@ -53,7 +53,7 @@ globalExecutorParallelism = "default"
 	# (Default: true) Whether to use compatibility mode to send chunks 
 	#  This may fix some mod compatibility issues
 	compatibilityMode = "default"
-	# (Default: 2) No-tick view distance max concurrent chunk loads 
+	# (Default: 3) No-tick view distance max concurrent chunk loads 
 	#  Lower this for a better latency and higher this for a faster loading
 	maxConcurrentChunkLoads = "default"
 	# (Default: false) Whether to ensure correct chunks within normal render distance 
@@ -118,7 +118,7 @@ globalExecutorParallelism = "default"
 	# Set to false for the following reasons: 
 	# Incompatible with architectury@9.1.12 (*) (defined in c2me) 
 	gcFreeChunkSerializer = "default"
-	# (Default: false) Whether to use the optimized implementation of IO system
+	# (Default: true) Whether to use the optimized implementation of IO system
 	replaceImpl = "default"
 	# (Default: 8192) Soft limit for io worker nbt cache
 	chunkDataCacheSoftLimit = "default"
