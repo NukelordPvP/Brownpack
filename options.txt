@@ -235,8 +235,8 @@ key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_pistorder.clear_display:key.keyboard.p
 key_[Fabrication] Toggle Stance:key.keyboard.unknown
 key_[Fabrication] Toggle/Hold Sprint:key.keyboard.unknown
-soundCategory_master:0.0
-soundCategory_music:0.0
+soundCategory_master:1.0
+soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:0.4980908890845072
