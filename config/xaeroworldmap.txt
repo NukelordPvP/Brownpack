@@ -1,5 +1,6 @@
 ignoreUpdate:163
 updateNotification:false
+allowInternetAccess:true
 differentiateByServerAddress:true
 caveMapsAllowed:true
 debug:false
@@ -47,6 +48,7 @@ multipleImagesExport:false
 nightExport:false
 highlightsExport:false
 exportScaleDownSquare:20
+mapWritingDistance:-1
 displayClaims:true
 claimsFillOpacity:46
 claimsBorderOpacity:80
@@ -54,12 +56,19 @@ globalVersion:1
 [XP] Fast Mapping:true
 [XP] Fast Mapping Delay:250.0
 [XP] Fast Mapping Rate Limit:20.0
+[XP] Fast Zip Writes:true
 [XP] Baritone Goal Waypoint:true
+[XP] Disable Waypoint Sharing:false
+[XP] Disable Receiving Waypoints:false
 [XP] Waystones Sync:true
-[XP] Persist WM Dim Switch:false
+[XP] Waystone Color:16
+[XP] Waystone Waypoint Set:false
+[XP] Persist Dim Switch:true
+[XP] Radar While Dim Switched:true
 [XP] Transparent Obsidian Roof:true
 [XP] Roof Y Level:250.0
 [XP] Roof Obsidian Opacity:150.0
+[XP] Roof Snow Opacity:10.0
 [XP] Min WorldMap Zoom:0.1
 [XP] Skip Background Render:false
 [XP] NewChunks Highlighting:true
@@ -72,8 +81,12 @@ globalVersion:1
 [XP] Old Chunks Opacity:100.0
 [XP] Old Chunks Color:3
 [XP] Portal Highlights:true
+[XP] Save/Load Portals to Disk:true
 [XP] Portal Highlights Opacity:100.0
 [XP] Portal Highlights Color:5
+[XP] WorldTools Highlights:true
+[XP] WorldTools Highlights Opacity:100.0
+[XP] WorldTools Highlights Color:1
 [XP] PortalSkip Detection:true
 [XP] PortalSkip Opacity:100.0
 [XP] PortalSkip Color:6
@@ -86,4 +99,3 @@ globalVersion:1
 [XP] null OW Dim Dir:true
 [XP] Data Dir Mode:2
 [XP] Nether Cave Fix:true
-[XP] Cross Dimension Teleport:true
