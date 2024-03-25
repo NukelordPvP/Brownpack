@@ -1,0 +1,12 @@
+#Sun Mar 24 23:19:57 PDT 2024
+shadowDistance=64.0
+Ambient_SSS=false
+shadowMapResolution=512
+Refraction=false
+EMISSIVE_TYPE=2
+WATER_SUN_SPECULAR=false
+WATER_BACKGROUND_SPECULAR=false
+SCREENSPACE_REFLECTIONS=false
+entityShadowDistanceMul=0.50
+WAVY_SPEED=0.3
+WATER_REFLECTIONS=false

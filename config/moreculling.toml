@@ -3,7 +3,7 @@ enableSodiumMenu = true
 cloudCulling = true
 signTextCulling = true
 rainCulling = true
-useBlockStateCulling = false
+useBlockStateCulling = true
 useCustomItemFrameRenderer = true
 itemFrameMapCulling = true
 useItemFrameLOD = true
@@ -20,4 +20,5 @@ entityModelCulling = false
 useOnModdedBlocksByDefault = true
 
 [modCompatibility]
+visualworkbench = true
 minecraft = true

@@ -78,7 +78,7 @@ _version = 2
 			updateBranch = "NIGHTLY"
 			# Automatically check for updates on game launch?
 			# 
-			enableAutoUpdater = true
+			enableAutoUpdater = false
 			# Should Distant Horizons silently, automatically download and install new versions?
 			# 
 			enableSilentUpdates = false
@@ -94,7 +94,7 @@ _version = 2
 			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
 			# 
-			numberOfLodBuilderThreads = 2
+			numberOfLodBuilderThreads = 1
 			# Should only be disabled if deadlock occurs and LODs refuse to update. 
 			# This will cause CPU usage to drastically increase for the Lod Builder threads. 
 			# 
@@ -109,7 +109,7 @@ _version = 2
 			# is already set to 1 for the given option, or more finely 
 			# tune CPU performance.
 			# 
-			runTimeRatioForWorldGenerationThreads = "0.75"
+			runTimeRatioForWorldGenerationThreads = "0.25"
 			# If this value is less than 1.0, it will be treated as a percentage 
 			# of time each thread can run before going idle. 
 			# 
@@ -117,7 +117,7 @@ _version = 2
 			# is already set to 1 for the given option, or more finely 
 			# tune CPU performance.
 			# 
-			runTimeRatioForLodBuilderThreads = "0.5"
+			runTimeRatioForLodBuilderThreads = "0.1"
 			# If this value is less than 1.0, it will be treated as a percentage 
 			# of time each thread can run before going idle. 
 			# 
@@ -125,7 +125,7 @@ _version = 2
 			# is already set to 1 for the given option, or more finely 
 			# tune CPU performance.
 			# 
-			runTimeRatioForFileHandlerThreads = "0.5"
+			runTimeRatioForFileHandlerThreads = "0.25"
 			# How many threads should be used when reading in LOD data from disk? 
 			# 
 			# Increasing this number will cause LODs to load in faster, 
@@ -137,7 +137,7 @@ _version = 2
 			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
 			# 
-			numberOfFileHandlerThreads = 2
+			numberOfFileHandlerThreads = 1
 			# How many threads should be used when generating LOD 
 			# chunks outside the normal render distance? 
 			# 
@@ -151,7 +151,7 @@ _version = 2
 			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
 			# 
-			numberOfWorldGenerationThreads = 3
+			numberOfWorldGenerationThreads = 1
 
 		[client.advanced.logging]
 			# If enabled, the mod will log information about the renderer OpenGL process. 
@@ -462,7 +462,7 @@ _version = 2
 				maxHorizontalResolution = "BLOCK"
 				# The radius of the mod's render distance. (measured in chunks)
 				# 
-				lodChunkRenderDistanceRadius = 128
+				lodChunkRenderDistanceRadius = 64
 				# Should the blocks underneath avoided blocks gain the color of the avoided block? 
 				# 
 				# True: a red flower will tint the grass below it red. 
@@ -508,7 +508,7 @@ _version = 2
 				# 
 				# Disabling fog will improve GPU performance.
 				# 
-				drawMode = "FOG_ENABLED"
+				drawMode = "USE_OPTIFINE_SETTING"
 				# At what distance should Fog be drawn on the LODs?
 				# 
 				distance = "FAR"

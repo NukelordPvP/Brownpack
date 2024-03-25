@@ -44,8 +44,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","file/xali\u0027s Enchanted Books v0.12.0.zip","Fabrication grayscale"]
-incompatibleResourcePacks:["file/FreshAnimations_v1.8.1.zip","file/xali\u0027s Enchanted Books v0.12.0.zip"]
+resourcePacks:["vanilla","fabric","file/xali\u0027s Enchanted Books v0.12.0.zip","Fabrication grayscale","Fabrication","resources/7OOF.zip","minecraft:supporteatinganimation","file/enchant icons 1.20 v1.3.zip","file/VanillaTweaks_r799885.zip","file/FreshAnimations_v1.9.zip","continuity:default","continuity:glass_pane_culling_fix","file/Authentic Shadows_1.20.zip","presencefootsteps:default_sound_pack","black_icons"]
+incompatibleResourcePacks:["appleskin","balm-fabric","bettercontrols","bookshelf","clientcommands","controlling","creativecore","defaultoptions","drippyloadingscreen","enchdesc","extremesoundmuffler","modernfix","openloader","replaymod","searchables","spark","tipsmod","toolstats","tweakeroo","worldedit","file/xali\u0027s Enchanted Books v0.12.0.zip","Fabrication","resources/7OOF.zip","minecraft:supporteatinganimation","file/enchant icons 1.20 v1.3.zip","file/VanillaTweaks_r799885.zip","continuity:default","continuity:glass_pane_culling_fix","file/Authentic Shadows_1.20.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -84,6 +84,7 @@ showAutosaveIndicator:true
 allowServerListing:true
 onlyShowSecureChat:false
 panoramaScrollSpeed:1.0
+debugifyTelemetry:0
 telemetryOptInExtra:false
 onboardAccessibility:false
 key_key.attack:key.mouse.left
@@ -132,7 +133,11 @@ key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
 key_Reload Menu | CTRL + ALT + :key.keyboard.r
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c
 key_jsmacros.menu:key.keyboard.k
+key_key.worldeditcui.toggle:key.keyboard.unknown
+key_key.worldeditcui.clear:key.keyboard.unknown
+key_key.worldeditcui.chunk:key.keyboard.unknown
 key_key.cleanview.togglecleanview:key.keyboard.unknown
+key_key.entityculling.toggle:key.keyboard.unknown
 key_equipmentcompare.key.showTooltips:key.keyboard.left.shift
 key_key.open_muffler_gui:key.keyboard.unknown
 key_key.firstperson.toggle:key.keyboard.f6
@@ -149,6 +154,8 @@ key_key.moremousekeybinds.periodicattack:key.keyboard.unknown
 key_key.moremousekeybinds.toggleholdtoattack:key.keyboard.unknown
 key_key.moremousekeybinds.togglecancelswingwhencoolingdown:key.keyboard.unknown
 key_key.moremousekeybinds.togglecancelswingwhennotarget:key.keyboard.unknown
+key_key.presencefootsteps.settings:key.keyboard.f10
+key_key.presencefootsteps.toggle:key.keyboard.unknown
 key_key.replaymod.playeroverview:key.keyboard.b
 key_key.replaymod.lighting:key.keyboard.z
 key_key.replaymod.quickmode:key.keyboard.q
@@ -167,48 +174,58 @@ key_key.replaymod.positionkeyframe:key.keyboard.i
 key_key.replaymod.positiononlykeyframe:key.keyboard.unknown
 key_key.replaymod.timekeyframe:key.keyboard.o
 key_key.replaymod.bothkeyframes:key.keyboard.unknown
+key_key.push_to_talk:key.keyboard.unknown
+key_key.whisper:key.keyboard.unknown
+key_key.mute_microphone:key.keyboard.m
+key_key.disable_voice_chat:key.keyboard.n
+key_key.hide_icons:key.keyboard.h
+key_key.voice_chat:key.keyboard.v
+key_key.voice_chat_settings:key.keyboard.unknown
+key_key.voice_chat_group:key.keyboard.g
+key_key.voice_chat_toggle_recording:key.keyboard.unknown
+key_key.voice_chat_adjust_volumes:key.keyboard.unknown
 key_key.waila.config:key.keyboard.unknown
 key_key.waila.show_overlay:key.keyboard.unknown
 key_key.waila.toggle_liquid:key.keyboard.unknown
 key_key.waila.show_recipe_input:key.keyboard.unknown
 key_key.waila.show_recipe_output:key.keyboard.unknown
 key_setting.world_map.portals:key.keyboard.unknown
-key_setting.keybinds.switch_to_end:key.keyboard.unknown
-key_setting.world_map.portals_save_load_to_disk:key.keyboard.unknown
-key_setting.world_map.show_waypoint_distances:key.keyboard.unknown
-key_setting.world_map.portal_skip_new_chunks:key.keyboard.unknown
-key_setting.world_map.persist_dimension_switch:key.keyboard.unknown
-key_setting.minimap.always_render_player_icon:key.keyboard.unknown
-key_setting.world_map.fast_zip_writes:key.keyboard.unknown
-key_setting.world_map.new_chunks_save_load_to_disk:key.keyboard.unknown
-key_setting.world_map.portal_skip_detection:key.keyboard.unknown
-key_setting.world_map.fast_mapping:key.keyboard.unknown
-key_setting.world_map.show_render_distance_world_map:key.keyboard.unknown
-key_setting.minimap.transparent_background:key.keyboard.unknown
 key_setting.keybinds.switch_to_overworld:key.keyboard.unknown
-key_setting.waypoints.waypoint_beacons:key.keyboard.unknown
-key_setting.world_map.new_chunks_highlighting:key.keyboard.unknown
-key_setting.world_map.old_chunks_highlighting:key.keyboard.unknown
-key_setting.minimap.always_render_player_name:key.keyboard.unknown
-key_setting.minimap.fps_limiter:key.keyboard.unknown
-key_setting.world_map.ow_auto_waypoint_dimension:key.keyboard.unknown
-key_setting.world_map.old_chunks_inverse:key.keyboard.unknown
+key_setting.minimap.always_render_player_icon:key.keyboard.unknown
+key_setting.world_map.portals_save_load_to_disk:key.keyboard.unknown
 key_setting.world_map.show_render_distance:key.keyboard.unknown
-key_setting.minimap.fix_main_entity_dot:key.keyboard.unknown
+key_setting.world_map.null_overworld_dimension_folder:key.keyboard.unknown
+key_setting.world_map.transparent_obsidian_roof:key.keyboard.unknown
+key_setting.world_map.new_chunks_highlighting:key.keyboard.unknown
+key_setting.world_map.old_chunks_inverse:key.keyboard.unknown
+key_setting.world_map.fast_zip_writes:key.keyboard.unknown
+key_setting.world_map.portal_skip_new_chunks:key.keyboard.unknown
+key_setting.world_map.nether_cave_fix:key.keyboard.unknown
+key_setting.world_map.portal_skip_detection:key.keyboard.unknown
+key_setting.keybinds.switch_to_end:key.keyboard.unknown
+key_setting.world_map.new_chunks_save_load_to_disk:key.keyboard.unknown
+key_setting.world_map.show_render_distance_world_map:key.keyboard.unknown
+key_setting.world_map.disable_receiving_waypoints:key.keyboard.unknown
+key_setting.world_map.ow_auto_waypoint_dimension:key.keyboard.unknown
+key_setting.world_map.radar_while_dimension_switched:key.keyboard.unknown
+key_setting.world_map.fast_mapping:key.keyboard.unknown
+key_setting.world_map.persist_dimension_switch:key.keyboard.unknown
+key_setting.waypoints.waypoint_beacons:key.keyboard.unknown
 key_setting.keybinds.switch_to_nether:key.keyboard.unknown
 key_setting.world_map.world_tools:key.keyboard.unknown
-key_setting.world_map.disable_receiving_waypoints:key.keyboard.unknown
-key_setting.world_map.nether_cave_fix:key.keyboard.unknown
-key_setting.world_map.waystone_waypoint_set:key.keyboard.unknown
-key_setting.world_map.waystones_sync:key.keyboard.unknown
-key_setting.world_map.disable_waypoint_sharing:key.keyboard.unknown
-key_setting.world_map.transparent_obsidian_roof:key.keyboard.unknown
-key_setting.world_map.old_chunks_save_load_to_disk:key.keyboard.unknown
-key_setting.world_map.portal_skip_old_chunks_inverse:key.keyboard.unknown
-key_setting.world_map.radar_while_dimension_switched:key.keyboard.unknown
+key_setting.world_map.old_chunks_highlighting:key.keyboard.unknown
+key_setting.minimap.transparent_background:key.keyboard.unknown
 key_setting.world_map.skip_world_render:key.keyboard.unknown
-key_setting.world_map.null_overworld_dimension_folder:key.keyboard.unknown
+key_setting.world_map.show_waypoint_distances:key.keyboard.unknown
 key_setting.world_map.baritone_waypoint:key.keyboard.unknown
+key_setting.minimap.fix_main_entity_dot:key.keyboard.unknown
+key_setting.minimap.fps_limiter:key.keyboard.unknown
+key_setting.world_map.waystone_waypoint_set:key.keyboard.unknown
+key_setting.world_map.portal_skip_old_chunks_inverse:key.keyboard.unknown
+key_setting.world_map.waystones_sync:key.keyboard.unknown
+key_setting.world_map.old_chunks_save_load_to_disk:key.keyboard.unknown
+key_setting.world_map.disable_waypoint_sharing:key.keyboard.unknown
+key_setting.minimap.always_render_player_name:key.keyboard.unknown
 key_gui.xaero_switch_waypoint_set:key.keyboard.unknown
 key_gui.xaero_instant_waypoint:key.keyboard.keypad.add
 key_gui.xaero_toggle_slime:key.keyboard.unknown
@@ -239,6 +256,7 @@ key_gui.xaero_toggle_dimension:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
+key_iris.keybind.wireframe:key.keyboard.unknown
 key_pistorder.clear_display:key.keyboard.p
 key_[Fabrication] Toggle Stance:key.keyboard.unknown
 key_[Fabrication] Toggle/Hold Sprint:key.keyboard.unknown

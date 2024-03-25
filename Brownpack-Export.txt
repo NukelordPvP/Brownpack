@@ -59,11 +59,11 @@ SOURCE_FOLDERS:
 # Custom output directory for each source file (if USE_CUSTOM_OUTPUT_DIR is set to true).
 SOURCE_FILES:
 
-  - SOURCE=/!_brownpack-fabric-0.14.22
-    CUSTOM_OUTPUT_DIR=/!_brownpack-fabric-0.14.22
+  - SOURCE=/!_brownpack-fabric-0.15.7
+    CUSTOM_OUTPUT_DIR=/!_brownpack-fabric-0.15.7
 
-  - SOURCE=/!_brownpack-version-0.2
-    CUSTOM_OUTPUT_DIR=/!_brownpack-version-0.2
+  - SOURCE=/!_brownpack-version-0.3
+    CUSTOM_OUTPUT_DIR=/!_brownpack-version-0.3
 
   - SOURCE=/!_copyright.txt
     CUSTOM_OUTPUT_DIR=/!_copyright.txt
@@ -84,7 +84,7 @@ SOURCE_FILES:
 # List of client-side config files to be removed from the copied folder.
 # Files should be specified relative to the destination folder.
 CONFIG_LIST:
-  IRC2b2tFabric-1.0.3-1.20.1.jar
+
 #Deletes? confirmed!
 # List of folders to be deleted from the copied folder.
 # Folders should be specified relative to the destination folder.

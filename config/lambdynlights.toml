@@ -1,6 +1,6 @@
 # LambDynamicLights configuration.
 # The dynamic lights mode
-mode = "fancy"
+mode = "fastest"
 
 # Light sources settings.
 [light_sources]
@@ -14,7 +14,7 @@ mode = "fancy"
 	# TNT lighting mode. May be off, simple or fancy.
 	tnt = "off"
 	# Creeper lighting mode. May be off, simple or fancy.
-	creeper = "simple"
+	creeper = "fancy"
 
 	[light_sources.settings]
 
@@ -123,6 +123,30 @@ mode = "fancy"
 				llama_spit = true
 				ender_dragon = true
 				sniffer = true
+				block_display = true
+				breeze = true
+				command_block_minecart = true
+				dragon_fireball = true
+				end_crystal = true
+				evoker_fangs = true
+				eye_of_ender = true
+				falling_block = true
+				furnace_minecart = true
+				giant = true
+				interaction = true
+				item_display = true
+				marker = true
+				ravager = true
+				shulker_bullet = true
+				silverfish = true
+				spawner_minecart = true
+				spectral_arrow = true
+				tadpole = true
+				text_display = true
+				tnt = true
+				vex = true
+				wind_charge = true
+				zoglin = true
 
 			[light_sources.settings.entities.immersive_portals]
 				loading_indicator = true
@@ -143,4 +167,54 @@ mode = "fancy"
 				copper_golem = true
 				glare = true
 				moobloom = true
+
+		[light_sources.settings.block_entities]
+
+			[light_sources.settings.block_entities.minecraft]
+				furnace = true
+				chest = true
+				trapped_chest = true
+				ender_chest = true
+				jukebox = true
+				dispenser = true
+				dropper = true
+				sign = true
+				hanging_sign = true
+				mob_spawner = true
+				piston = true
+				brewing_stand = true
+				enchanting_table = true
+				end_portal = true
+				beacon = true
+				skull = true
+				daylight_detector = true
+				hopper = true
+				comparator = true
+				banner = true
+				structure_block = true
+				end_gateway = true
+				command_block = true
+				shulker_box = true
+				bed = true
+				conduit = true
+				barrel = true
+				smoker = true
+				blast_furnace = true
+				lectern = true
+				bell = true
+				jigsaw = true
+				campfire = true
+				beehive = true
+				sculk_sensor = true
+				calibrated_sculk_sensor = true
+				sculk_catalyst = true
+				sculk_shrieker = true
+				chiseled_bookshelf = true
+				brushable_block = true
+				decorated_pot = true
+				crafter = true
+				trial_spawner = true
+
+			[light_sources.settings.block_entities.visualworkbench]
+				crafting_table = true
 
