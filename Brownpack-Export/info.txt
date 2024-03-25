@@ -1,2 +1,5 @@
-Brownpack-Local-Export = for local testing of non symlinked brownpack instance (with no user settings)
-Brownpack-Local-Symlink-Export = for displaying all folders to Symlink
+##### Brownpack-Local-Export
+# For local testing of non symlinked brownpack instance (with no user settings).
+##### Brownpack-Local-Symlink-Export
+# For creating a new instance for your alt account
+# Folders must be manually converted to symlink folders based on Brownpack-Export-Symlink.txt/github list.

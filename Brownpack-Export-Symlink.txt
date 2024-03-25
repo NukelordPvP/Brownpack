@@ -30,55 +30,69 @@ USE_CUSTOM_OUTPUT_DIR:false
 # Custom output directory for each source folder (if USE_CUSTOM_OUTPUT_DIR is set to true).
 SOURCE_FOLDERS:
 
-  - SOURCE=./baritone
-    CUSTOM_OUTPUT_DIR=./baritone
+# sym
+#  - SOURCE=./baritone
+#    CUSTOM_OUTPUT_DIR=./baritone
 
 # cant sym
-#  - SOURCE=./config
-#    CUSTOM_OUTPUT_DIR=./config
+  - SOURCE=./config
+    CUSTOM_OUTPUT_DIR=./config
 
-  - SOURCE=./data
-    CUSTOM_OUTPUT_DIR=./data
+# sym
+#  - SOURCE=./data
+#    CUSTOM_OUTPUT_DIR=./data
 
-  - SOURCE=./drippyloadingscreen
-    CUSTOM_OUTPUT_DIR=./drippyloadingscreen
+# sym
+#  - SOURCE=./drippyloadingscreen
+#    CUSTOM_OUTPUT_DIR=./drippyloadingscreen
 
-  - SOURCE=./meteor-client
-    CUSTOM_OUTPUT_DIR=./meteor-client
+# sym
+#  - SOURCE=./meteor-client
+#    CUSTOM_OUTPUT_DIR=./meteor-client
 
 # cant sym
-#  - SOURCE=./mods
-#   CUSTOM_OUTPUT_DIR=./mods
+  - SOURCE=./mods
+   CUSTOM_OUTPUT_DIR=./mods
 
-  - SOURCE=./profileImage
-    CUSTOM_OUTPUT_DIR=./profileImage
+# sym
+#  - SOURCE=./profileImage
+#    CUSTOM_OUTPUT_DIR=./profileImage
 
-  - SOURCE=./replay_recordings
-    CUSTOM_OUTPUT_DIR=./replay_recordings
+# sym
+#  - SOURCE=./replay_recordings
+#    CUSTOM_OUTPUT_DIR=./replay_recordings
 
-  - SOURCE=./resourcepacks
-    CUSTOM_OUTPUT_DIR=./resourcepacks
+# sym
+#  - SOURCE=./resourcepacks
+#    CUSTOM_OUTPUT_DIR=./resourcepacks
 
-  - SOURCE=./saves
-    CUSTOM_OUTPUT_DIR=./saves
+# sym
+#  - SOURCE=./saves
+#    CUSTOM_OUTPUT_DIR=./saves
 
-  - SOURCE=./schematics
-    CUSTOM_OUTPUT_DIR=./schematics
+# sym
+#  - SOURCE=./schematics
+#    CUSTOM_OUTPUT_DIR=./schematics
 
-  - SOURCE=./screenshots
-    CUSTOM_OUTPUT_DIR=./screenshots
+# sym
+#  - SOURCE=./screenshots
+#    CUSTOM_OUTPUT_DIR=./screenshots
 
-  - SOURCE=./shaderpacks
-    CUSTOM_OUTPUT_DIR=./shaderpacks
+# sym
+#  - SOURCE=./shaderpacks
+#    CUSTOM_OUTPUT_DIR=./shaderpacks
 
-  - SOURCE=./XaeroWaypoints
-    CUSTOM_OUTPUT_DIR=./XaeroWaypoints
+# sym
+#  - SOURCE=./XaeroWaypoints
+#    CUSTOM_OUTPUT_DIR=./XaeroWaypoints
 
-  - SOURCE=./XaeroWaypoints_BACKUP032021
-    CUSTOM_OUTPUT_DIR=./XaeroWaypoints_BACKUP032021
+# sym
+#  - SOURCE=./XaeroWaypoints_BACKUP032021
+#    CUSTOM_OUTPUT_DIR=./XaeroWaypoints_BACKUP032021
 
-  - SOURCE=./XaeroWorldMap
-    CUSTOM_OUTPUT_DIR=./XaeroWorldMap
+# sym
+#  - SOURCE=./XaeroWorldMap
+#    CUSTOM_OUTPUT_DIR=./XaeroWorldMap
 
 
 #Copys? confirmed!
@@ -86,17 +100,21 @@ SOURCE_FOLDERS:
 # Custom output directory for each source file (if USE_CUSTOM_OUTPUT_DIR is set to true).
 SOURCE_FILES:
 
+# just copy
   - SOURCE=/!_brownpack-fabric-0.15.7
     CUSTOM_OUTPUT_DIR=/!_brownpack-fabric-0.15.7
 
+# just copy
   - SOURCE=/!_brownpack-version-0.3
     CUSTOM_OUTPUT_DIR=/!_brownpack-version-0.3
 
+# just copy
   - SOURCE=/!_copyright.txt
     CUSTOM_OUTPUT_DIR=/!_copyright.txt
 
-  - SOURCE=/servers.dat
-    CUSTOM_OUTPUT_DIR=/servers.dat
+# sym
+#  - SOURCE=/servers.dat
+#    CUSTOM_OUTPUT_DIR=/servers.dat
 
 # curseforge
   - SOURCE=/minecraftinstance.json
