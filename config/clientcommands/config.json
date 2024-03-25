@@ -3,5 +3,8 @@
   "toolBreakWarning": false,
   "maxEnchantItemThrows": 2048,
   "commandExecutionLimit": 65536,
-  "acceptC2CPackets": false
+  "maximumPacketFieldDepth": 10,
+  "acceptC2CPackets": false,
+  "itemThrowsPerTick": 1.0,
+  "packetDumpMethod": "REFLECTION"
 }

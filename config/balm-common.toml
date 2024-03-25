@@ -6,6 +6,7 @@ exampleEnumList = [ "Hello", "World" ]
 exampleInt = 42
 exampleIntList = [ 12, 24 ]
 exampleMultilineString = "Hello World"
+exampleResourceLocationSet = [ "minecraft:dirt", "minecraft:diamond" ]
 exampleString = "Hello World"
 exampleStringList = [ "Hello", "World" ]
 

@@ -106,11 +106,13 @@
     "lightLevelSkipBlockCheck": false,
     "lightLevelUnderWater": false,
     "mapPreview": false,
+    "mapPreviewRequireShift": true,
     "offsetSubtitleHud": true,
     "requireSneak": false,
     "shulkerBoxPreview": false,
     "shulkerDisplayBgColor": true,
     "shulkerDisplayRequireShift": true,
+    "slimeChunkTopToPlayer": true,
     "sortLinesByLength": false,
     "sortLinesReversed": false,
     "structuresRenderThrough": false,
@@ -122,6 +124,9 @@
       "hotkey": {
         "keys": ""
       }
+    },
+    "moveShapeToPlayer": {
+      "keys": ""
     },
     "openConfigGui": {
       "keys": "H,C"
@@ -143,6 +148,7 @@
     "hudAlignment": "top_left",
     "biomeOverlayRange": 4,
     "biomeOverlayRangeVertical": 0,
+    "blockPosFormat": "Block: %d, %d, %d",
     "blockGridOverlayRadius": 32,
     "coordinateFormat": "x: %.1f y: %.1f z: %.1f",
     "dateFormatReal": "yyyy-MM-dd HH:mm:ss",

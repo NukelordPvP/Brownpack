@@ -5,7 +5,7 @@
 	#Range: 0.5 ~ 8.0
 	sound_detection_range = 1.5
 	#Mob variants that shouldn't have any model changes applied to them.
-	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color.
+	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color. Begin an entry with "!" to make sure it is excluded, useful e.g. when it has already been matched by another pattern.
 	mob_blacklist = []
 
 [models]
@@ -70,7 +70,7 @@
 [oinky_pig]
 	#Mob sounds to play a unique animation for.
 	#Useful for adding support for modded mob variants which have different sounds from their vanilla counterparts.
-	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color.
+	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color. Begin an entry with "!" to make sure it is excluded, useful e.g. when it has already been matched by another pattern.
 	mob_sounds = ["minecraft:entity.pig.ambient"]
 	#Fancy ears for pigs, just like piglins have them.
 	floaty_ears = true
@@ -88,7 +88,7 @@
 	flap_wings = true
 	#Mob sounds to play a unique animation for.
 	#Useful for adding support for modded mob variants which have different sounds from their vanilla counterparts.
-	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color.
+	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color. Begin an entry with "!" to make sure it is excluded, useful e.g. when it has already been matched by another pattern.
 	mob_sounds = ["minecraft:entity.chicken.ambient"]
 	#Animation swing speed for wattles movement.
 	#Range: 1 ~ 20
@@ -104,7 +104,7 @@
 [spitful_llama]
 	#Mob sounds to play a unique animation for.
 	#Useful for adding support for modded mob variants which have different sounds from their vanilla counterparts.
-	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color.
+	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color. Begin an entry with "!" to make sure it is excluded, useful e.g. when it has already been matched by another pattern.
 	mob_sounds = ["minecraft:entity.llama.spit"]
 
 [squiggly_squid_tentacles]
@@ -163,7 +163,7 @@
 [animated_snow_man_stick]
 	#Mob sounds to play a unique animation for.
 	#Useful for adding support for modded mob variants which have different sounds from their vanilla counterparts.
-	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color.
+	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color. Begin an entry with "!" to make sure it is excluded, useful e.g. when it has already been matched by another pattern.
 	mob_sounds = ["minecraft:entity.snow_golem.shoot"]
 
 [wiggly_ghast_tentacles]
@@ -185,6 +185,6 @@
 [wiggly_villager_nose]
 	#Mob sounds to play a unique animation for.
 	#Useful for adding support for modded mob variants which have different sounds from their vanilla counterparts.
-	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color.
+	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color. Begin an entry with "!" to make sure it is excluded, useful e.g. when it has already been matched by another pattern.
 	mob_sounds = ["minecraft:entity.villager.ambient", "minecraft:entity.villager.trade", "minecraft:entity.wandering_trader.ambient", "minecraft:entity.wandering_trader.trade"]
 

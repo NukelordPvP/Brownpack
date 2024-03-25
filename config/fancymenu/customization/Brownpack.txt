@@ -79,12 +79,7 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  identifier = %id=802990%
   action = hidebutton
 }
 
@@ -124,28 +119,6 @@ customization {
 }
 
 customization {
-  identifier = %id=400382%
-  orientation = mid-left
-  x = 3
-  action = movebutton
-  y = 32
-}
-
-customization {
-  identifier = %id=400382%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = drippyloadingscreen/brownpack2bynukelord420bg2hover.png
-  backgroundnormal = drippyloadingscreen/brownpackbynukelord420bg2.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  action = hidebutton
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-left
   x = 3
@@ -176,23 +149,6 @@ customization {
 }
 
 customization {
-  identifier = %id=604358%
-  orientation = mid-left
-  x = 156
-  action = movebutton
-  y = -10
-}
-
-customization {
-  identifier = %id=604358%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = drippyloadingscreen/brownpack2bynukelord420bg2hover.png
-  backgroundnormal = drippyloadingscreen/brownpackbynukelord420bg2.png
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-left
   x = 87
@@ -220,6 +176,23 @@ customization {
   action = setbuttontexture
   backgroundhovered = drippyloadingscreen/brownpack2bynukelord420bg2hover.png
   backgroundnormal = drippyloadingscreen\brownpackbynukelord420bg2.png
+}
+
+customization {
+  identifier = %id=604358%
+  orientation = mid-left
+  x = 156
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=604358%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = drippyloadingscreen/brownpack2bynukelord420bg2hover.png
+  backgroundnormal = drippyloadingscreen/brownpackbynukelord420bg2.png
 }
 
 customization {
@@ -310,5 +283,15 @@ customization {
   actionid = e5522e95-82e6-44d6-8631-013a9bc41f1d1692071126727
   y = 446
   height = 88
+}
+
+customization {
+  identifier = %id=604394%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376394%
+  action = hidebutton
 }
 

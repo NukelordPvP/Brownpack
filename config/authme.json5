@@ -19,9 +19,9 @@
 			// OAuth2 client id
 			"clientId": "e16699bb-2aa8-46da-b5e3-45cbcce29091",
 			// OAuth2 authorization url
-			"authorizeUrl": "https://login.live.com/oauth20_authorize.srf",
+			"authorizeUrl": "https://login.microsoftonline.com/consumers/oauth2/v2.0/authorize",
 			// OAuth2 access token url
-			"tokenUrl": "https://login.live.com/oauth20_token.srf",
+			"tokenUrl": "https://login.microsoftonline.com/consumers/oauth2/v2.0/token",
 			// Xbox authentication url
 			"xboxAuthUrl": "https://user.auth.xboxlive.com/user/authenticate",
 			// Xbox XSTS authorization url
@@ -30,11 +30,6 @@
 			"mcAuthUrl": "https://api.minecraftservices.com/authentication/login_with_xbox",
 			// Minecraft profile url
 			"mcProfileUrl": "https://api.minecraftservices.com/minecraft/profile"
-		},
-		// Login via Mojang (or legacy)
-		"mojang": {
-			// Last used username
-			"lastUsername": "majapeternell@comcast.net"
 		},
 		// Login Offline
 		"offline": {

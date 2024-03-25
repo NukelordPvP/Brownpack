@@ -2,6 +2,7 @@
 #Forge restores the built-in default value for that option, but ignores a value that is set in a possibly present default config in 'defaultconfigs'.
 #This option fixes this behavior and checks for a value in a default config from 'defaultconfigs' before falling back to the built-in default.
 correctConfigValuesFromDefaultConfig = true
+disableConfigWatcher = false
 #Path to load default configs from, intended for setting global server configs for newly created worlds, but also works when recreating client and common configs.
 defaultConfigsPath = "defaultconfigs"
 #Config loading from a file config appears to occasionally fail and throw a com.electronwill.nightconfig.core.io.ParsingException: Not enough data available.
