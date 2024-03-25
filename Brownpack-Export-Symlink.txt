@@ -30,61 +30,87 @@ USE_CUSTOM_OUTPUT_DIR:false
 # Custom output directory for each source folder (if USE_CUSTOM_OUTPUT_DIR is set to true).
 SOURCE_FOLDERS:
 
-  - SOURCE=./config
-    CUSTOM_OUTPUT_DIR=./config
+  - SOURCE=./baritone
+    CUSTOM_OUTPUT_DIR=./baritone
 
-#  - SOURCE=./data
-#    CUSTOM_OUTPUT_DIR=./data
+# cant sym
+#  - SOURCE=./config
+#    CUSTOM_OUTPUT_DIR=./config
 
-#  - SOURCE=./drippyloadingscreen
-#    CUSTOM_OUTPUT_DIR=./drippyloadingscreen
+  - SOURCE=./data
+    CUSTOM_OUTPUT_DIR=./data
 
-#  - SOURCE=./resourcepacks
-#    CUSTOM_OUTPUT_DIR=./resourcepacks
+  - SOURCE=./drippyloadingscreen
+    CUSTOM_OUTPUT_DIR=./drippyloadingscreen
 
-  - SOURCE=./mods
-    CUSTOM_OUTPUT_DIR=./mods
+  - SOURCE=./meteor-client
+    CUSTOM_OUTPUT_DIR=./meteor-client
 
-#  - SOURCE=./profileImage
-#    CUSTOM_OUTPUT_DIR=./profileImage
+# cant sym
+#  - SOURCE=./mods
+#   CUSTOM_OUTPUT_DIR=./mods
 
-#  - SOURCE=./schematics
-#    CUSTOM_OUTPUT_DIR=./schematics
+  - SOURCE=./profileImage
+    CUSTOM_OUTPUT_DIR=./profileImage
 
-#  - SOURCE=./shaderpacks
-#    CUSTOM_OUTPUT_DIR=./shaderpacks
+  - SOURCE=./replay_recordings
+    CUSTOM_OUTPUT_DIR=./replay_recordings
+
+  - SOURCE=./resourcepacks
+    CUSTOM_OUTPUT_DIR=./resourcepacks
+
+  - SOURCE=./saves
+    CUSTOM_OUTPUT_DIR=./saves
+
+  - SOURCE=./schematics
+    CUSTOM_OUTPUT_DIR=./schematics
+
+  - SOURCE=./screenshots
+    CUSTOM_OUTPUT_DIR=./screenshots
+
+  - SOURCE=./shaderpacks
+    CUSTOM_OUTPUT_DIR=./shaderpacks
+
+  - SOURCE=./XaeroWaypoints
+    CUSTOM_OUTPUT_DIR=./XaeroWaypoints
+
+  - SOURCE=./XaeroWaypoints_BACKUP032021
+    CUSTOM_OUTPUT_DIR=./XaeroWaypoints_BACKUP032021
+
+  - SOURCE=./XaeroWorldMap
+    CUSTOM_OUTPUT_DIR=./XaeroWorldMap
+
 
 #Copys? confirmed!
 #Checks for deletions? NO
 # Custom output directory for each source file (if USE_CUSTOM_OUTPUT_DIR is set to true).
 SOURCE_FILES:
 
-  - SOURCE=/!_brownpack-fabric-0.14.22
-    CUSTOM_OUTPUT_DIR=/!_brownpack-fabric-0.14.22
+  - SOURCE=/!_brownpack-fabric-0.15.7
+    CUSTOM_OUTPUT_DIR=/!_brownpack-fabric-0.15.7
 
-  - SOURCE=/!_brownpack-version-0.2
-    CUSTOM_OUTPUT_DIR=/!_brownpack-version-0.2
+  - SOURCE=/!_brownpack-version-0.3
+    CUSTOM_OUTPUT_DIR=/!_brownpack-version-0.3
 
   - SOURCE=/!_copyright.txt
     CUSTOM_OUTPUT_DIR=/!_copyright.txt
 
-#  - SOURCE=/servers.dat
-#    CUSTOM_OUTPUT_DIR=/servers.dat
+  - SOURCE=/servers.dat
+    CUSTOM_OUTPUT_DIR=/servers.dat
 
-  - SOURCE=/.curseclient
-    CUSTOM_OUTPUT_DIR=/.curseclient
-
-  - SOURCE=/irisUpdateInfo.json
-    CUSTOM_OUTPUT_DIR=/irisUpdateInfo.json
-
+# curseforge
   - SOURCE=/minecraftinstance.json
     CUSTOM_OUTPUT_DIR=/minecraftinstance.json
+
+# modrinth
+  - SOURCE=/profile.json
+    CUSTOM_OUTPUT_DIR=/profile.json
     
 #Deletes? confirmed!
 # List of client-side config files to be removed from the copied folder.
 # Files should be specified relative to the destination folder.
 CONFIG_LIST:
-  IRC2b2tFabric-1.0.3-1.20.1.jar
+
 #Deletes? confirmed!
 # List of folders to be deleted from the copied folder.
 # Folders should be specified relative to the destination folder.

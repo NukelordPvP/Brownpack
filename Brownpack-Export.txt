@@ -30,6 +30,10 @@ USE_CUSTOM_OUTPUT_DIR:false
 # Custom output directory for each source folder (if USE_CUSTOM_OUTPUT_DIR is set to true).
 SOURCE_FOLDERS:
 
+# private
+#  - SOURCE=./baritone
+#    CUSTOM_OUTPUT_DIR=./baritone
+
   - SOURCE=./config
     CUSTOM_OUTPUT_DIR=./config
 
@@ -39,8 +43,9 @@ SOURCE_FOLDERS:
   - SOURCE=./drippyloadingscreen
     CUSTOM_OUTPUT_DIR=./drippyloadingscreen
 
-  - SOURCE=./resourcepacks
-    CUSTOM_OUTPUT_DIR=./resourcepacks
+# private
+#  - SOURCE=./meteor-client
+#    CUSTOM_OUTPUT_DIR=./meteor-client
 
   - SOURCE=./mods
     CUSTOM_OUTPUT_DIR=./mods
@@ -48,11 +53,39 @@ SOURCE_FOLDERS:
   - SOURCE=./profileImage
     CUSTOM_OUTPUT_DIR=./profileImage
 
-  - SOURCE=./schematics
-    CUSTOM_OUTPUT_DIR=./schematics
+# private
+#  - SOURCE=./replay_recordings
+#    CUSTOM_OUTPUT_DIR=./replay_recordings
+
+  - SOURCE=./resourcepacks
+    CUSTOM_OUTPUT_DIR=./resourcepacks
+
+# private
+#  - SOURCE=./saves
+#   CUSTOM_OUTPUT_DIR=./saves
+
+# 50% is private
+#  - SOURCE=./schematics
+#    CUSTOM_OUTPUT_DIR=./schematics
+
+# private
+#  - SOURCE=./screenshots
+#    CUSTOM_OUTPUT_DIR=./screenshots
 
   - SOURCE=./shaderpacks
     CUSTOM_OUTPUT_DIR=./shaderpacks
+
+# private
+#  - SOURCE=./XaeroWaypoints
+#    CUSTOM_OUTPUT_DIR=./XaeroWaypoints
+
+# private
+#  - SOURCE=./XaeroWaypoints_BACKUP032021
+#    CUSTOM_OUTPUT_DIR=./XaeroWaypoints_BACKUP032021
+
+# private
+#  - SOURCE=./XaeroWorldMap
+#    CUSTOM_OUTPUT_DIR=./XaeroWorldMap
 
 #Copys? confirmed!
 #Checks for deletions? NO
@@ -68,17 +101,17 @@ SOURCE_FILES:
   - SOURCE=/!_copyright.txt
     CUSTOM_OUTPUT_DIR=/!_copyright.txt
 
-  - SOURCE=/servers.dat
-    CUSTOM_OUTPUT_DIR=/servers.dat
+# private
+#  - SOURCE=/servers.dat
+#    CUSTOM_OUTPUT_DIR=/servers.datss
 
-  - SOURCE=/.curseclient
-    CUSTOM_OUTPUT_DIR=/.curseclient
-
-  - SOURCE=/irisUpdateInfo.json
-    CUSTOM_OUTPUT_DIR=/irisUpdateInfo.json
-
+# curseforge
   - SOURCE=/minecraftinstance.json
     CUSTOM_OUTPUT_DIR=/minecraftinstance.json
+
+# modrinth
+  - SOURCE=/profile.json
+    CUSTOM_OUTPUT_DIR=/profile.json
     
 #Deletes? confirmed!
 # List of client-side config files to be removed from the copied folder.

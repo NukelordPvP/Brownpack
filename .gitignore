@@ -81,6 +81,9 @@ litematica
 #minihud cache
 minihud
 
+#distant horizons cache
+Distant_Horizons_server_data
+
 modernfix/structureCacheV1/*
 
 #worlds
