@@ -1,0 +1,2 @@
+Brownpack-Local-Export = for local testing of non symlinked brownpack instance (with no user settings)
+Brownpack-Local-Symlink-Export = for displaying all folders to Symlink
