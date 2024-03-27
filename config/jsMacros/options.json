@@ -3,19 +3,27 @@
   "core": {
     "maxLockTime": 500,
     "defaultProfile": "default",
+    "anythingIgnored": [
+      "Sound",
+      "Tick",
+      "RecvPacket",
+      "SendPacket"
+    ],
     "profiles": {
       "default": [
         {
           "triggerType": "EVENT",
           "event": "ProfileLoad",
           "scriptFile": "index.js",
-          "enabled": true
+          "enabled": true,
+          "joined": false
         },
         {
           "triggerType": "KEY_RISING",
           "event": "key.keyboard.right.alt",
           "scriptFile": "holdspace.js",
-          "enabled": true
+          "enabled": true,
+          "joined": false
         }
       ]
     },

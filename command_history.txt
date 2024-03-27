@@ -1,3 +1,50 @@
-/gamemode creative
-/
-/gamemode survival
+//copy
+//paste
+/clear
+/give Nukelord420 minecraft:shulker_box 36
+/clear
+/give Nukelord420 minecraft:shulker_box 36
+/clear
+/give Nukelord420 minecraft:shulker_box 36
+/clear
+//wand
+//set obsidian
+//cut
+//paste
+//undo
+//cut
+/clear
+/k
+/tp Lord_Mahan Nukelord420
+/tp TheCampngRusher
+//wand
+//copy
+//wand
+/setblock ~ ~ ~
+//copy
+//paste
+//wand
+//copy
+//paste
+/clear
+/give @p minecraft:shulker_box 36
+/clear
+/give @p minecraft:shulker_box 36
+/clear
+/give Nukelord420 minecraft:shulker_box 30
+/clear
+//wand
+//cut
+//rotate 90
+//paste
+//cut
+//paste
+//cut
+//rotate 90
+//paste
+/give Nukelord420 minecraft:shulker_box 36
+/clear
+/give Nukelord420 minecraft:shulker_box 36
+/clear
+/give Nukelord420 minecraft:shulker_box 36
+/clear

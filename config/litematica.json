@@ -68,7 +68,7 @@
     "easyPlaceSwapInterval": 0,
     "pickBlockableSlots": "1,2,3,4,5",
     "toolItem": "minecraft:stick",
-    "printingMode": false,
+    "printingMode": true,
     "printingInterval": 12,
     "printingRange": 5.0,
     "replaceFluidSourceBlocks": true,
