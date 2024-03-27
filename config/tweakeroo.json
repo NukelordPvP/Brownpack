@@ -233,7 +233,7 @@
     }
   },
   "Internal": {
-    "flySpeedPreset": 3,
+    "flySpeedPreset": 1,
     "gammaValueOriginal": 0.5,
     "hotbarScrollCurrentRow": 3,
     "slimeBlockSlipperinessOriginal": 0.800000011920929,
