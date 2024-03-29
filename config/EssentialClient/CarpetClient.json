@@ -7,6 +7,20 @@
     "default": false
   },
   {
+    "name": "stonecuttersDoDamage",
+    "type": "String",
+    "description": "When a stonecutter is powered by redstone, it will damage entities standing on top of it.\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
+    "extras": null,
+    "default": "0.0f"
+  },
+  {
+    "name": "thornyRoseBush",
+    "type": "Boolean",
+    "description": "Similarly to sweet berry bushes, rose bushes deal damage when you walk inside them\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": "This even has a unique death message! ",
+    "default": false
+  },
+  {
     "name": "witherSpawnedSoundDisabled",
     "type": "Boolean",
     "description": "Disable the wither spawned sound emitted when a wither fully reset its health after summoned\n§3From: TISUnion/Carpet-TIS-Addition",
@@ -228,6 +242,13 @@
     "default": false
   },
   {
+    "name": "consistentExplosionImmunity",
+    "type": "Boolean",
+    "description": "Explosion-immune blocks also apply this property to their dropped item counterparts\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": "Though marked as \"Works As Intended\", this rule technically fixes this bug: https://bugs.mojang.com/browse/MC-212764 ",
+    "default": false
+  },
+  {
     "name": "minecartMissingOcclusionFix",
     "type": "Boolean",
     "description": "Fixes minecarts sending the entity_place event when placed on a vibration occluding block\n§3From: fxmorin/carpet-fixes",
@@ -263,6 +284,13 @@
     "default": false
   },
   {
+    "name": "movableSpawners",
+    "type": "Boolean",
+    "description": "Allows spawners to be moved.\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "enchantCommandDisableRestrictions",
     "type": "Boolean",
     "description": "Disable enchant command restrictions (TIS Additions port).\n§3From: adryd325/ceramic",
@@ -291,6 +319,13 @@
     "default": false
   },
   {
+    "name": "debugNbtQueryNoPermission",
+    "type": "Boolean",
+    "description": "Remove the permission requirement for the debug nbt request of client's F3+I action\n§3From: TISUnion/Carpet-TIS-Addition",
+    "extras": "In vanilla, the request needs permission level 2 at least Carpet TIS Addition is required to be installed on the client ",
+    "default": false
+  },
+  {
     "name": "crossDimensionTeleportLosesStatsFix",
     "type": "Boolean",
     "description": "Fixes client stats being lost when teleporting between dimensions\n§3From: fxmorin/carpet-fixes",
@@ -302,6 +337,13 @@
     "type": "Boolean",
     "description": "Re-introduces very aggressive saving by removing the chunk save cooldown that was added in 22w05a\n§3From: fxmorin/carpet-fixes",
     "extras": "For obvious reasons, this does not work when `reIntroduceOnlyAutoSaveSaving` is enabled ",
+    "default": false
+  },
+  {
+    "name": "ravagersStompPlants",
+    "type": "Boolean",
+    "description": "Ravagers can break plants, like in Bedrock Edition\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
     "default": false
   },
   {
@@ -321,7 +363,7 @@
   {
     "name": "isHalloween",
     "type": "Boolean",
-    "description": "It's halloween for mobs.\n§3From: luisch444/Hosting-luisch-Carpet",
+    "description": "It's halloween for mobs.\n§3From: luisch444/Bastion-Carpet",
     "extras": null,
     "default": false
   },
@@ -410,6 +452,13 @@
     "default": false
   },
   {
+    "name": "commandRandomTick",
+    "type": "String",
+    "description": "Enables /randomtick command to forcibly send randomTicks to the specified block position\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": "true"
+  },
+  {
     "name": "dispensersPotPlants",
     "type": "Boolean",
     "description": "Dispensers can put flowers in flower pots\n§3From: gnembon/carpet-extra",
@@ -442,6 +491,13 @@
     "type": "Boolean",
     "description": "Spawn pillager patrols\n§3From: RubixDev/CarpetGamerules",
     "extras": "Whether pillager patrols can spawn ",
+    "default": true
+  },
+  {
+    "name": "globalSoundEvents",
+    "type": "Boolean",
+    "description": "Global sound events\n§3From: RubixDev/CarpetGamerules",
+    "extras": "When certain game events happen, like a boss spawning, the sound is heard everywhere. ",
     "default": true
   },
   {
@@ -788,7 +844,7 @@
     "type": "String",
     "description": "Determine the way to divide game ticks\n§3From: TISUnion/Carpet-TIS-Addition",
     "extras": "world_timer: Divides at Overworld timer increment player_action: Divides at the beginning of player action ",
-    "default": "world_timer"
+    "default": "WORLD_TIMER"
   },
   {
     "name": "returnSpectators",
@@ -854,6 +910,13 @@
     "default": false
   },
   {
+    "name": "dropEyesOfEnderFromEndPortalFrame",
+    "type": "Boolean",
+    "description": "A full end portal frame will drop an eye of ender when right clicked by a player, turning into an\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "zeroTickPlants",
     "type": "Boolean",
     "description": "Brings back the ability to force grow certain plants using 0-ticks\n§3From: RubixDev/Rug",
@@ -868,6 +931,27 @@
     "default": false
   },
   {
+    "name": "sporeBlossomDuplication",
+    "type": "Boolean",
+    "description": "Spore blossoms drop themselves when fertilized, the same way tall flowers do\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": false
+  },
+  {
+    "name": "peacefulMonsterSpawning",
+    "type": "Cycle",
+    "description": "Hostile mobs can passively spawn in peaceful mode\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": "For more information, check the designated Github wiki page! ",
+    "default": "FALSE",
+    "cycles": [
+      "false",
+      "true",
+      "below_surface",
+      "below_sea",
+      "unnatural"
+    ]
+  },
+  {
     "name": "totalScore",
     "type": "Boolean",
     "description": "The scoreboard total appears on the scoreboard.\n§3From: JohanVonElectrum/Johan-Carpet",
@@ -879,6 +963,13 @@
     "type": "Boolean",
     "description": "Fixes allays getting stuck in the void due to gravity being disabled\n§3From: fxmorin/carpet-fixes",
     "extras": "",
+    "default": false
+  },
+  {
+    "name": "disableShulkerReproduction",
+    "type": "Boolean",
+    "description": "Disables shulkers duplicating when hit by bullets\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": "Intended to be used in tandem with carpet's shulkerSpawningInEndCities. ",
     "default": false
   },
   {
@@ -934,13 +1025,6 @@
       "true",
       "ops"
     ]
-  },
-  {
-    "name": "fallingBlockThreadSleep",
-    "type": "Integer",
-    "description": "Make sand do the thing\n§3From: lntricate1/intricarpet",
-    "extras": "(The argument is in milliseconds) ((if you set this higher than 60 seconds you are a FOOL)) ",
-    "default": 0
   },
   {
     "name": "moreFortressSpawningBlocks",
@@ -1019,15 +1103,10 @@
   },
   {
     "name": "hopperNoItemCost",
-    "type": "Cycle",
+    "type": "Boolean",
     "description": "Hopper with wool block on top outputs item infinitely without having its item decreased\n§3From: TISUnion/Carpet-TIS-Addition",
     "extras": "You can use /scounter command or subscribe to the scounter logger to track the amount of the output items This rule is also the switch of the /scounter command ",
-    "default": "false",
-    "cycles": [
-      "true",
-      "false",
-      "ops"
-    ]
+    "default": false
   },
   {
     "name": "creativePlayersLoadChunks",
@@ -1078,15 +1157,10 @@
   },
   {
     "name": "stopCommandDoubleConfirmation",
-    "type": "Cycle",
+    "type": "Boolean",
     "description": "Add a double confirmation for /stop command to prevent stopping server accidentally\n§3From: TISUnion/Carpet-TIS-Addition",
     "extras": "You need to enter /stop twice within 1 minute to stop the server This mechanics only works for players ",
-    "default": "false",
-    "cycles": [
-      "true",
-      "false",
-      "ops"
-    ]
+    "default": false
   },
   {
     "name": "variableWoodDelays",
@@ -1215,6 +1289,20 @@
     ]
   },
   {
+    "name": "spawnBabyProbably",
+    "type": "Double",
+    "description": "When spawning mobs, if baby variant exists, spawn the jockey variant with given probably\n§3From: TISUnion/Carpet-TIS-Addition",
+    "extras": "Set it to -1 to disable the rule and use vanilla logic ",
+    "default": -1.0
+  },
+  {
+    "name": "entityInstantDeathRemoval",
+    "type": "Boolean",
+    "description": "Remove the 20gt delay before living entity removal after death\n§3From: TISUnion/Carpet-TIS-Addition",
+    "extras": "When enabled, living entities will despawn immediately after their death ",
+    "default": false
+  },
+  {
     "name": "hopperUpdateFix",
     "type": "Boolean",
     "description": "Makes it so that hoppers give block updates when placed while powered\n§3From: fxmorin/carpet-fixes",
@@ -1302,6 +1390,13 @@
     ]
   },
   {
+    "name": "playersDropAllXp",
+    "type": "Boolean",
+    "description": "Players drop all of their XP on death instead of a capped amount\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "incorrectFallDamageFix",
     "type": "Boolean",
     "description": "Fixes incorrect fall distance calculations causing fall distance to build up over time on leads\n§3From: fxmorin/carpet-fixes",
@@ -1345,10 +1440,15 @@
   },
   {
     "name": "chainStone",
-    "type": "String",
+    "type": "Cycle",
     "description": "Chains will stick to each other on the long ends\n§3From: gnembon/fabric-carpet",
     "extras": "and will stick to other blocks that connect to them directly. With stick_to_all: it will stick even if not visually connected ",
-    "default": "false"
+    "default": "false",
+    "cycles": [
+      "true",
+      "false",
+      "stick_to_all"
+    ]
   },
   {
     "name": "structureBlockOutlineDistance",
@@ -1386,6 +1486,13 @@
     "default": false
   },
   {
+    "name": "mobExplosionDropDecay",
+    "type": "Boolean",
+    "description": "In mob explosions, some blocks won't drop their loot\n§3From: RubixDev/CarpetGamerules",
+    "extras": "Some of the drops from blocks destroyed by explosions caused by mobs are lost in the explosion. ",
+    "default": true
+  },
+  {
     "name": "detectorRailOffsetUpdateFix",
     "type": "Boolean",
     "description": "Fixes comparator signal ending prematurely due to offset block updates\n§3From: fxmorin/carpet-fixes",
@@ -1412,6 +1519,13 @@
     "description": "Only husks spawn in desert temples\n§3From: gnembon/fabric-carpet",
     "extras": null,
     "default": false
+  },
+  {
+    "name": "pistonMovementTime",
+    "type": "Integer",
+    "description": "The length of time it takes for a piston to fully extend or retract, in ticks\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": 2
   },
   {
     "name": "disableBlazeFire",
@@ -1449,10 +1563,24 @@
     "default": false
   },
   {
+    "name": "torchBurnoutTime",
+    "type": "Integer",
+    "description": "The allocated time a torch has to reach its flicker count in order to burn out, in ticks\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": "40 is the value that matches Bedrock Edition's behavior, assuming the default flicker amount value ",
+    "default": 60
+  },
+  {
     "name": "craftableBarrier",
     "type": "Boolean",
     "description": "Allows to craft barrier block\n§3From: MultiCoreNetwork/carpet-redcraft-addons",
     "extras": null,
+    "default": false
+  },
+  {
+    "name": "renewableCobwebs",
+    "type": "Boolean",
+    "description": "Cave spider spawners generate cobwebs between nearby solid faces each spawn cycle\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": "For more information, check the designated Github wiki page! ",
     "default": false
   },
   {
@@ -1473,6 +1601,13 @@
     "name": "blockEventChunkLoading",
     "type": "Boolean",
     "description": "Block event can load 3x3 chunks for 8gt\n§3From: Ivan-1F/Ivan-Carpet-Addition",
+    "extras": null,
+    "default": false
+  },
+  {
+    "name": "renewableGildedBlackstone",
+    "type": "Boolean",
+    "description": "Blackstone adjacent to underwater magma blocks slowly becomes gilded over time\n§3From: axialeaa/DoormatCarpetExtension",
     "extras": null,
     "default": false
   },
@@ -1568,10 +1703,24 @@
     "default": false
   },
   {
+    "name": "softInversion",
+    "type": "Boolean",
+    "description": "Redstone torches placed on the sides of pistons deactivate when the piston extends, like in Bedrock Edition\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "dispensersPickUpFish",
     "type": "Boolean",
     "description": "Lets dispensers pick up fish using water buckets.\n§3From: enjarai/swaggy-carpet-addon",
     "extras": null,
+    "default": false
+  },
+  {
+    "name": "lavaSourceConversion",
+    "type": "Boolean",
+    "description": "Lava converts to source\n§3From: RubixDev/CarpetGamerules",
+    "extras": "When flowing lava is surrounded on two sides by lava sources it converts into a source. ",
     "default": false
   },
   {
@@ -1582,22 +1731,38 @@
     "default": false
   },
   {
+    "name": "fireAspectLighting",
+    "type": "Boolean",
+    "description": "Items enchanted with fire aspect can be used to light campfires, candles and TNT, like in Bedrock Edition\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": false
+  },
+  {
+    "name": "creativePlayerOneHitKill",
+    "type": "Boolean",
+    "description": "Allows players in creative mode to kill entities in one hit. this only works on non-player entities.\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "commandRaid",
-    "type": "Cycle",
+    "type": "String",
     "description": "Enables /raid command for raid listing and tracking\n§3From: TISUnion/Carpet-TIS-Addition",
     "extras": null,
-    "default": "true",
-    "cycles": [
-      "true",
-      "false",
-      "ops"
-    ]
+    "default": "true"
   },
   {
     "name": "structuresIgnorePassengersFix",
     "type": "Boolean",
     "description": "Fixes structure blocks not being able to save entities with passengers\n§3From: fxmorin/carpet-fixes",
     "extras": "",
+    "default": false
+  },
+  {
+    "name": "copperBulbOxidationSignal",
+    "type": "Boolean",
+    "description": "Comparators reading from copper bulbs output a signal strength based on the oxidation stage, instead of a binary output\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
     "default": false
   },
   {
@@ -1705,10 +1870,24 @@
     "default": false
   },
   {
+    "name": "endermenSpawnOnlyInTheEnd",
+    "type": "Boolean",
+    "description": "Disables endermen from spawning in the overworld and nether, only allowing them to spawn in the end.\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "armorStandNegateCactusDamageFix",
     "type": "Boolean",
     "description": "Fixes armor stands not being damaged by cactus\n§3From: fxmorin/carpet-fixes",
     "extras": "[MC-224420](https://bugs.mojang.com/browse/MC-224420) ",
+    "default": false
+  },
+  {
+    "name": "alwaysHalloween",
+    "type": "Boolean",
+    "description": "Mobs will always have a chance to wear carved pumpkins, regardless of the time of year\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": "This also affects bat spawning rates. ",
     "default": false
   },
   {
@@ -1738,19 +1917,6 @@
     "description": "Re-introduces general item dupe using dolphins, and some other dimension change dupes\n§3From: fxmorin/carpet-fixes",
     "extras": null,
     "default": false
-  },
-  {
-    "name": "instantScheduling",
-    "type": "Cycle",
-    "description": "Makes tile ticks execute instantly\n§3From: lntricate1/intricarpet",
-    "extras": null,
-    "default": "false",
-    "cycles": [
-      "false",
-      "fluids",
-      "blocks",
-      "all"
-    ]
   },
   {
     "name": "anvilCrushIce",
@@ -1784,6 +1950,13 @@
     "name": "optimizedTicketManager",
     "type": "Boolean",
     "description": "Initial made for lithium, although was not exactly vanilla behavior. this is a very small optimization!\n§3From: fxmorin/carpet-fixes",
+    "extras": null,
+    "default": false
+  },
+  {
+    "name": "jukeboxDiscProgressSignal",
+    "type": "Boolean",
+    "description": "Comparators reading from jukeboxes output a signal strength based on how much of the music disc has been played, instead of the disc index\n§3From: axialeaa/DoormatCarpetExtension",
     "extras": null,
     "default": false
   },
@@ -1919,13 +2092,6 @@
     "default": true
   },
   {
-    "name": "villagersNoGenerateGolems",
-    "type": "Boolean",
-    "description": "Disable generation of iron golems by villagers\n§3From: luisch444/Hosting-luisch-Carpet",
-    "extras": null,
-    "default": false
-  },
-  {
     "name": "noCreeperBlockBreaking",
     "type": "Boolean",
     "description": "Disables creeper explosion block breaking\n§3From: manyrandomthings/minitweaks",
@@ -1954,11 +2120,37 @@
     "default": false
   },
   {
+    "name": "compactPotTooltips",
+    "type": "Cycle",
+    "description": "Compacts the tooltips of decorated pots by grouping like sherds together\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": "\"ignore_bricks\" removes bricks from the tooltips entirely. For more information, check the designated Github wiki page! ",
+    "default": "FALSE",
+    "cycles": [
+      "false",
+      "true",
+      "ignore_bricks"
+    ]
+  },
+  {
     "name": "tntFuseTime",
     "type": "Double",
     "description": "Modify the fuse time of tnt\n§3From: DreamRealmCraft/carpet-DRC-Addition",
     "extras": null,
     "default": 80.0
+  },
+  {
+    "name": "xpBubbleColumnInteraction",
+    "type": "Boolean",
+    "description": "Bubble columns will push or pull xp orb entities like with other entities and items.\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
+    "extras": null,
+    "default": false
+  },
+  {
+    "name": "solidEntityCollision",
+    "type": "Boolean",
+    "description": "Living entities can be collided with like boats\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": false
   },
   {
     "name": "commandSidebar",
@@ -2008,6 +2200,13 @@
     "description": "Major positive reputation is shared amongst all players\n§3From: totorewa/totos-carpet-tweaks",
     "extras": null,
     "default": false
+  },
+  {
+    "name": "fastLeafDecay",
+    "type": "Double",
+    "description": "The chance per gametick of leaves decaying when their supporting logs are removed, in 1/x\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": "0 restores vanilla randomTick behavior, and 0.075 is the value that matches the behavior of Vanilla Tweaks' datapack. ",
+    "default": 0.0
   },
   {
     "name": "blueSkullTesting",
@@ -2254,6 +2453,13 @@
     "default": true
   },
   {
+    "name": "spectatorPlayersUsePortals",
+    "type": "Boolean",
+    "description": "Spectator players can go through nether portals, end portals and end gateways.\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "lightQueueLoggerSamplingDuration",
     "type": "Integer",
     "description": "The sampling duration of light queue logger in game tick\n§3From: TISUnion/Carpet-TIS-Addition",
@@ -2279,6 +2485,13 @@
     "type": "Boolean",
     "description": "Fixes villagers being hurt by there own fireworks\n§3From: fxmorin/carpet-fixes",
     "extras": "[MC-195326](https://bugs.mojang.com/browse/MC-195326) ",
+    "default": false
+  },
+  {
+    "name": "creativeInstantTame",
+    "type": "Boolean",
+    "description": "Let create player tame animals instantly\n§3From: TISUnion/Carpet-TIS-Addition",
+    "extras": "Affects cat, wolf, parrot and horse-like animals ",
     "default": false
   },
   {
@@ -2310,6 +2523,13 @@
     "default": false
   },
   {
+    "name": "phantomMinSpawnAltitude",
+    "type": "Integer",
+    "description": "The minimum y height the player needs to be standing at in order to spawn phantoms\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": 63
+  },
+  {
     "name": "stonecutterSandstone",
     "type": "Boolean",
     "description": "Adds stonecutter craftings for all types of sandstone.\n§3From: MultiCoreNetwork/carpet-redcraft-addons",
@@ -2331,6 +2551,13 @@
     "default": false
   },
   {
+    "name": "netheriteAxeInstantMineWood",
+    "type": "Boolean",
+    "description": "A netherite axe with efficiency v combined with the haste ii status effect will instant mine wood and\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "commandHome",
     "type": "Boolean",
     "description": "Enables /home command.\n§3From: adryd325/ceramic",
@@ -2338,18 +2565,18 @@
     "default": true
   },
   {
-    "name": "xpbeacons",
-    "type": "Boolean",
-    "description": "If true uses experience-based amplitude on beacon status effects. see xp.fracturedcode.net\n§3From: FracturedCode/XpBeacons",
-    "extras": null,
-    "default": false
-  },
-  {
     "name": "isJohanPto",
     "type": "Boolean",
     "description": "Sends the message 'johan pto' every 20 minutes.\n§3From: luisch444/Bastion-Carpet",
     "extras": null,
     "default": false
+  },
+  {
+    "name": "hopperTransferTime",
+    "type": "Integer",
+    "description": "The length of time it takes for a hopper to transfer an item, in ticks\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": 8
   },
   {
     "name": "silkTouchSpawners",
@@ -2397,6 +2624,13 @@
     "name": "generateRandomEndGateways",
     "type": "Boolean",
     "description": "Generate random end gateways\n§3From: jsorrell/CarpetSkyAdditions",
+    "extras": null,
+    "default": false
+  },
+  {
+    "name": "netheritePickaxeInstantMineEndStone",
+    "type": "Boolean",
+    "description": "A netherite pickaxe with efficiency v combined with the haste ii status effect will instant mine end\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
     "extras": null,
     "default": false
   },
@@ -2527,6 +2761,13 @@
     "default": 2
   },
   {
+    "name": "incrediblySecretSetting",
+    "type": "Boolean",
+    "description": "§kblblblbllblblbblblblblblblbl§r :3\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "commandWeird",
     "type": "Cycle",
     "description": "Enables the /weird command\n§3From: fxmorin/WeirdAddons",
@@ -2537,6 +2778,13 @@
       "false",
       "true"
     ]
+  },
+  {
+    "name": "huskWashing",
+    "type": "Boolean",
+    "description": "Adult husks drop 1-3 sand when converting into zombies\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": false
   },
   {
     "name": "reIntroduceFlintAndSteelBehavior",
@@ -2581,6 +2829,18 @@
     "default": false
   },
   {
+    "name": "chiseledBookshelfSignalBasis",
+    "type": "Cycle",
+    "description": "The thing comparators measure when outputting the signal strength of chiseled bookshelves\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": "\"interaction\" is vanilla behavior, and is equal to the last slot interacted with. \"fullness\" depends on the number of books in the bookshelf. Lerped interpolates from 1 to 15, instead of outputting the exact number. ",
+    "default": "INTERACTION",
+    "cycles": [
+      "interaction",
+      "fullness",
+      "fullness_lerped"
+    ]
+  },
+  {
     "name": "cobwebSlowdownSpeed",
     "type": "Double",
     "description": "Overwrite the slowdown speed of cobwebs\n§3From: Ivan-1F/Ivan-Carpet-Addition",
@@ -2598,6 +2858,13 @@
       "false",
       "ops"
     ]
+  },
+  {
+    "name": "xpPerSculkCatalyst",
+    "type": "Integer",
+    "description": "Sets the amount of xp dropped when breaking a sculk catalyst.\n§3From: gnembon/carpet-extra",
+    "extras": null,
+    "default": 5
   },
   {
     "name": "dispensersTillSoil",
@@ -2622,15 +2889,10 @@
   },
   {
     "name": "commandRaycast",
-    "type": "Cycle",
+    "type": "String",
     "description": "Enables /raycast command for debugging raycast\n§3From: TISUnion/Carpet-TIS-Addition",
     "extras": null,
-    "default": "ops",
-    "cycles": [
-      "true",
-      "false",
-      "ops"
-    ]
+    "default": "ops"
   },
   {
     "name": "shadowItemUpdateFix",
@@ -2648,10 +2910,14 @@
   },
   {
     "name": "perfPermissionLevel",
-    "type": "Integer",
+    "type": "Cycle",
     "description": "Required permission level for /perf command\n§3From: gnembon/fabric-carpet",
     "extras": null,
-    "default": 4
+    "default": "4",
+    "cycles": [
+      "2",
+      "4"
+    ]
   },
   {
     "name": "simulationDistance",
@@ -2684,6 +2950,13 @@
     "type": "Boolean",
     "description": "Fixes armor stands not taking damage in lava\n§3From: fxmorin/carpet-fixes",
     "extras": "[MC-199210](https://bugs.mojang.com/browse/MC-199210) ",
+    "default": false
+  },
+  {
+    "name": "disableMobSpawningInOverworld",
+    "type": "Boolean",
+    "description": "Disables mobs from spawning in the overworld.\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
+    "extras": null,
     "default": false
   },
   {
@@ -2720,6 +2993,13 @@
     "description": "Adds fast crafting for dispenser and repeater.\n§3From: MultiCoreNetwork/carpet-redcraft-addons",
     "extras": null,
     "default": true
+  },
+  {
+    "name": "disableMobSpawningInEnd",
+    "type": "Boolean",
+    "description": "Disables mobs from spawning in the end.\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
+    "extras": null,
+    "default": false
   },
   {
     "name": "railMissingUpdateOnPushFix",
@@ -2772,15 +3052,17 @@
   },
   {
     "name": "commandRemoveEntity",
-    "type": "Cycle",
+    "type": "String",
     "description": "Enables /removeentity command for directly erase target entities from the world\n§3From: TISUnion/Carpet-TIS-Addition",
     "extras": null,
-    "default": "ops",
-    "cycles": [
-      "true",
-      "false",
-      "ops"
-    ]
+    "default": "ops"
+  },
+  {
+    "name": "retroRepeaterDelay",
+    "type": "Boolean",
+    "description": "Repeaters have delays of 2, 4, 10 and 14 ticks respectively, like they did during development of beta 1.3\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": false
   },
   {
     "name": "blockCollisionCheckFix",
@@ -2832,6 +3114,13 @@
     "default": false
   },
   {
+    "name": "barrelItemDumping",
+    "type": "Boolean",
+    "description": "Barrels facing down will eject all of their contained items when opened\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "itemEntitySkipMovementDisabled",
     "type": "Boolean",
     "description": "Removed the movement skipping mechanism when ticking of item entity\n§3From: TISUnion/Carpet-TIS-Addition",
@@ -2877,6 +3166,20 @@
     ]
   },
   {
+    "name": "dropAllXpOnPlayerDeath",
+    "type": "Boolean",
+    "description": "When a player dies, all of their xp will be dropped.\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
+    "extras": null,
+    "default": false
+  },
+  {
+    "name": "netheritePickaxeInstantMineBlueIce",
+    "type": "Boolean",
+    "description": "A netherite pickaxe with efficiency v combined with the haste ii status effect will instant mine blue\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "enderDragonNoGriefing",
     "type": "Boolean",
     "description": "Prevent Ender Dragon from breaking any blocks.\n§3From: kosma/carpet-flying",
@@ -2891,11 +3194,11 @@
     "default": false
   },
   {
-    "name": "disableTNTChainReaction",
-    "type": "Boolean",
-    "description": "Makes tnt act like normal blocks when blown up\n§3From: lntricate1/intricarpet",
-    "extras": null,
-    "default": false
+    "name": "stickyStickyPistons",
+    "type": "String",
+    "description": "Sticky pistons act like directional slime blocks\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": "\"stick_to_all\" causes them to stick omnidirectionally like normal slime blocks. ",
+    "default": "FALSE"
   },
   {
     "name": "comparatorTransparencyFix",
@@ -2910,6 +3213,13 @@
     "description": "Fixes the endermen not being able to take damage from wither and tnt explosions\n§3From: fxmorin/carpet-fixes",
     "extras": "",
     "default": false
+  },
+  {
+    "name": "speedTestCommandMaxTestSize",
+    "type": "Integer",
+    "description": "The max test size in MiB when using the /speedtest command for network speed test\n§3From: TISUnion/Carpet-TIS-Addition",
+    "extras": null,
+    "default": 10
   },
   {
     "name": "carefulBreak",
@@ -2967,6 +3277,13 @@
     "default": false
   },
   {
+    "name": "accurateAzaleaLeafDistribution",
+    "type": "Boolean",
+    "description": "The distribution of azalea leaf types matches the azalea bush the tree is grown from\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": "These features are controlled through doormat/worldgen/configured_feature/azalea_tree_many_flowers.json and azalea_tree_no_flowers.json respectively. ",
+    "default": false
+  },
+  {
     "name": "vexesNerf",
     "type": "Boolean",
     "description": "Vexes will start to die after the evoker that summoned them dies\n§3From: manyrandomthings/minitweaks",
@@ -3002,6 +3319,13 @@
     "default": false
   },
   {
+    "name": "ThunderWarn",
+    "type": "Integer",
+    "description": "The amount of ticks before thunderstorm that are needed for the mod to warn you about it\n§3From: RLLD576/Rober-Carpet",
+    "extras": null,
+    "default": 0
+  },
+  {
     "name": "fakePlayerNameSuggestions",
     "type": "String",
     "description": "Overwrite the player list suggested when using /player command\n§3From: Ivan-1F/Ivan-Carpet-Addition",
@@ -3010,10 +3334,18 @@
   },
   {
     "name": "commandScriptACE",
-    "type": "String",
+    "type": "Cycle",
     "description": "Enables restrictions for arbitrary code execution with scarpet\n§3From: gnembon/fabric-carpet",
     "extras": "Users that don't have this permission level won't be able to load apps or /script run. It is also the permission level apps will have when running commands with run() ",
-    "default": "ops"
+    "default": "ops",
+    "cycles": [
+      "ops",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
   },
   {
     "name": "drownedUseEnchantedTridents",
@@ -3106,6 +3438,13 @@
     "default": false
   },
   {
+    "name": "portalSpectatorDelay",
+    "type": "Integer",
+    "description": "Amount of delay ticks to use a nether portal in spectator mode. requires the `spectatorplayersuseportals` rule to be enabled.\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
+    "extras": null,
+    "default": 1
+  },
+  {
     "name": "mobSpawningRestrictionMode",
     "type": "Cycle",
     "description": "Modify the way to restrict mob spawning\n§3From: Ivan-1F/Ivan-Carpet-Addition",
@@ -3119,10 +3458,15 @@
   },
   {
     "name": "thickFungusGrowth",
-    "type": "String",
+    "type": "Cycle",
     "description": "Allows to grow nether fungi with 3x3 base with bonemeal\n§3From: gnembon/fabric-carpet",
     "extras": "Setting to 'all' will make all nether fungi grow into 3x3 trees Setting to 'random' will make 6% of all nether fungi grow into 3x3 trees (this being consistent with worldgen) ",
-    "default": "false"
+    "default": "false",
+    "cycles": [
+      "false",
+      "random",
+      "all"
+    ]
   },
   {
     "name": "boatsStuckInDispensersFix",
@@ -3144,6 +3488,13 @@
     "description": "Pointed dripstones (stalagmites) deal damage when standing on them. sneaking prevents this\n§3From: RubixDev/Rug",
     "extras": null,
     "default": 0
+  },
+  {
+    "name": "KeepInventoryResetXP",
+    "type": "Boolean",
+    "description": "If using keep inventory gamerule, the player xp wil be reset on death (vanilla if keep inventory off)\n§3From: RLLD576/Rober-Carpet",
+    "extras": null,
+    "default": false
   },
   {
     "name": "sleepingResetsThunderFix",
@@ -3216,6 +3567,13 @@
     "default": false
   },
   {
+    "name": "renewableSporeBlossoms",
+    "type": "Boolean",
+    "description": "Spore blossoms generate underneath fertilized moss blocks\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "repairCostItemNotStackingFix",
     "type": "Boolean",
     "description": "Fixes named blocks not stacking due to useless repaircost tag\n§3From: fxmorin/carpet-fixes",
@@ -3270,6 +3628,13 @@
     "description": "Fixes absorption effect not going away even after the absorption hearts are gone\n§3From: fxmorin/carpet-fixes",
     "extras": "[MC-202432](https://bugs.mojang.com/browse/MC-202432) ",
     "default": false
+  },
+  {
+    "name": "commandUpdateType",
+    "type": "String",
+    "description": "Enables /updatetype command to change the updates individual redstone components emit when changing state\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": "true"
   },
   {
     "name": "totallyNoBlockUpdate",
@@ -3335,9 +3700,23 @@
     "default": false
   },
   {
+    "name": "netheritePickaxeInstantMineCobblestone",
+    "type": "Boolean",
+    "description": "A netherite pickaxe with efficiency v combined with the haste ii status effect will instant mine\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "lecternBlockDupeFix",
     "type": "Boolean",
     "description": "Fixes a lectern block dupe, it just dupes the lectern block\n§3From: fxmorin/carpet-fixes",
+    "extras": null,
+    "default": false
+  },
+  {
+    "name": "reachAroundBridging",
+    "type": "Boolean",
+    "description": "Blocks can be placed by aiming in front of the block you're standing on, like in Bedrock Edition\n§3From: axialeaa/DoormatCarpetExtension",
     "extras": null,
     "default": false
   },
@@ -3377,6 +3756,13 @@
     "default": false
   },
   {
+    "name": "comparatorsReadThroughPaths",
+    "type": "Boolean",
+    "description": "Comparators can read through dirt paths, like in Bedrock Edition\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "beeDupeFix",
     "type": "Boolean",
     "description": "Fixes bees duplicating while trying to load a beehive/beenest in unloaded chunks\n§3From: fxmorin/carpet-fixes",
@@ -3388,7 +3774,7 @@
     "type": "String",
     "description": "Modify the way to specify events to be logged in microTiming logger. Events labelled with dye marker are always logged\n§3From: TISUnion/Carpet-TIS-Addition",
     "extras": "labelled: Logs events labelled with wool. Deprecated in_range: Logs events within 32m of any player. Deprecated all: Logs every event. Use with caution. Deprecated marker_only: Logs event labelled with dye marker only. Use it with rule microTimingDyeMarker ",
-    "default": "marker_only"
+    "default": "MARKER_ONLY"
   },
   {
     "name": "easyBlueIceCrafting",
@@ -3451,6 +3837,13 @@
       "break",
       "destroy"
     ]
+  },
+  {
+    "name": "trialSpawnerSheepActivation",
+    "type": "Boolean",
+    "description": "Sheep activate trial spawners instead of players\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": false
   },
   {
     "name": "creepersDropBlocks",
@@ -3517,6 +3910,13 @@
       "false",
       "true"
     ]
+  },
+  {
+    "name": "dispensersPlaceEyesOfEnder",
+    "type": "Boolean",
+    "description": "Dispensers can place eyes of ender into end portal frames.\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
+    "extras": null,
+    "default": false
   },
   {
     "name": "glowGlowBerries",
@@ -3608,18 +4008,6 @@
     "default": false
   },
   {
-    "name": "slimeChunks",
-    "type": "Cycle",
-    "description": "Makes either all or no chunks behave like slime chunks\n§3From: lntricate1/intricarpet",
-    "extras": null,
-    "default": "vanilla",
-    "cycles": [
-      "vanilla",
-      "all",
-      "none"
-    ]
-  },
-  {
     "name": "announceAdvancements",
     "type": "Boolean",
     "description": "Announce advancements\n§3From: RubixDev/CarpetGamerules",
@@ -3683,6 +4071,13 @@
     "default": false
   },
   {
+    "name": "disableMobSpawningInNether",
+    "type": "Boolean",
+    "description": "Disables mobs from spawning in the nether.\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "redstoneRedirectionMissingUpdateFix",
     "type": "Boolean",
     "description": "Fixes redstone redirection missing updates on redirecting\n§3From: fxmorin/carpet-fixes",
@@ -3704,6 +4099,13 @@
     "default": true
   },
   {
+    "name": "disableEndPortalCrossing",
+    "type": "Boolean",
+    "description": "Disables travelling through end portals\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "deathItemsDespawnMinutes",
     "type": "Integer",
     "description": "How many minutes it takes for a player's items to despawn after death\n§3From: manyrandomthings/minitweaks",
@@ -3720,7 +4122,7 @@
   {
     "name": "yeetUpdateSuppressionCrash",
     "type": "Boolean",
-    "description": "Prevent the server from crashing due to stack overflow\n§3From: TISUnion/Carpet-TIS-Addition",
+    "description": "Prevent the server from crashing due to StackOverflowError, OutOfMemoryError or ClassCastException\n§3From: TISUnion/Carpet-TIS-Addition",
     "extras": "Do the same thing as fabric carpet's updateSuppressionCrashFix rule, but with more information ",
     "default": false
   },
@@ -3776,7 +4178,7 @@
   {
     "name": "netheritePickaxeInstantMineDeepslate",
     "type": "Boolean",
-    "description": "Deepslate can be instant mined with netherite pickaxe\n§3From: ChronosServer/chronos-carpet-addons",
+    "description": "A netherite pickaxe with efficiency v combined with the haste ii status effect will instant mine\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
     "extras": null,
     "default": false
   },
@@ -3786,13 +4188,6 @@
     "description": "Set the range where player will receive a block event packet after a block event fires successfully\n§3From: TISUnion/Carpet-TIS-Addition",
     "extras": "For piston the packet is used to render the piston movement animation. Decrease it to reduce client's lag ",
     "default": 64.0
-  },
-  {
-    "name": "reIntroduceReverseRailUpdateOrder",
-    "type": "Boolean",
-    "description": "Re-introduces reverse rail update order which only existed in 22w11a. Requires optimizedPoweredRails\n§3From: fxmorin/carpet-fixes",
-    "extras": null,
-    "default": false
   },
   {
     "name": "noObsidianPlatform",
@@ -3872,6 +4267,13 @@
     "default": false
   },
   {
+    "name": "doVinesSpread",
+    "type": "Boolean",
+    "description": "Vines spread\n§3From: RubixDev/CarpetGamerules",
+    "extras": "Controls whether or not the Vines block spreads randomly to adjacent blocks. Does not affect other type of vine blocks such as Weeping Vines, Twisting Vines, etc. ",
+    "default": true
+  },
+  {
     "name": "playerHeadDrops",
     "type": "Cycle",
     "description": "Players drop their head\n§3From: RubixDev/Rug",
@@ -3925,6 +4327,13 @@
     ]
   },
   {
+    "name": "torchBurnoutFlickerAmount",
+    "type": "Integer",
+    "description": "The number of times a redstone torch must flicker within the allocated timespan in order to burn out\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": 8
+  },
+  {
     "name": "spongeCeption",
     "type": "Boolean",
     "description": "Sponge, sponges itself\n§3From: fxmorin/WeirdAddons",
@@ -3948,8 +4357,8 @@
   {
     "name": "fillLimit",
     "type": "Integer",
-    "description": "[deprecated] customizable fill/fillbiome/clone volume limit\n§3From: gnembon/fabric-carpet",
-    "extras": "Use vanilla gamerule instead. This setting will be removed in 1.20.0 ",
+    "description": "Customizable fill/clone volume limit\n§3From: gnembon/fabric-carpet",
+    "extras": null,
     "default": 32768
   },
   {
@@ -4063,11 +4472,29 @@
     "default": false
   },
   {
+    "name": "movableEmptyEndPortalFrames",
+    "type": "Cycle",
+    "description": "Allows empty end portal frames to be moved.nthe `drop_as_items_on_explosion` option will allow end\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
+    "extras": null,
+    "default": "FALSE",
+    "cycles": [
+      "true",
+      "false",
+      "drop_as_item_on_explosion"
+    ]
+  },
+  {
     "name": "lightUpdates",
-    "type": "String",
+    "type": "Cycle",
     "description": "Pause or disable light updates\n§3From: TISUnion/Carpet-TIS-Addition",
     "extras": "If set to suppressed, no light update can be executed which simulates light suppressor If set to ignored, no light update can be scheduled. It's useful for creating light errors If set to off, no light update can be scheduled or executed [WARNING] If set to suppressed or off, new chunks cannot be loaded. Then if the server tries to load chunk for player movement or whatever reason the server will be stuck forever ",
-    "default": "on"
+    "default": "ON",
+    "cycles": [
+      "on",
+      "suppressed",
+      "ignored",
+      "off"
+    ]
   },
   {
     "name": "seedPermissionLevel",
@@ -4131,6 +4558,18 @@
     "description": "Allows to leash a rope beetween two fences.\n§3From: MultiCoreNetwork/carpet-redcraft-addons",
     "extras": null,
     "default": true
+  },
+  {
+    "name": "replaceableFlowers",
+    "type": "Cycle",
+    "description": "Placing blocks on flowers will replace them like grass.\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
+    "extras": null,
+    "default": "FALSE",
+    "cycles": [
+      "false",
+      "one_tall_flowers",
+      "all_flowers"
+    ]
   },
   {
     "name": "boatsDontTakeFallDamageFix",
@@ -4272,10 +4711,15 @@
   },
   {
     "name": "microTimingDyeMarker",
-    "type": "String",
+    "type": "Cycle",
     "description": "Allow player to right click with dye item to mark a block to be logged by microTiming logger\n§3From: TISUnion/Carpet-TIS-Addition",
     "extras": "You need to subscribe to microTiming logger for marking or displaying blocks Right click with the same dye to switch the marker to end rod mode with which block update information will be logged additionally. Right click again to remove the marker Right click a marker with slime ball item to make it movable. It will move to the corresponding new position when the attaching block is moved by a piston Use `/carpet microTimingDyeMarker clear` to remove all markers You can create a named marker by using a renamed dye item. Marker name will be shown in logging message as well You can see boxes at marked blocks with fabric-carpet installed on your client. With carpet-tis-addition installed the marker name could also be seen through blocks ",
-    "default": "true"
+    "default": "true",
+    "cycles": [
+      "false",
+      "true",
+      "clear"
+    ]
   },
   {
     "name": "anvilFallingDamage",
@@ -4417,11 +4861,18 @@
     "default": false
   },
   {
-    "name": "stackeableTotemsSize",
-    "type": "Integer",
-    "description": "Limit the amount of stacking in the rule stackeabletotems\n§3From: luisch444/Hosting-luisch-Carpet",
+    "name": "disablePhantomSpawningInMushroomFields",
+    "type": "Boolean",
+    "description": "Phantoms will no longer spawn around a player that is in a mushroom fields biome.\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
     "extras": null,
-    "default": 16
+    "default": false
+  },
+  {
+    "name": "chatMessageLengthLimitUnlocked",
+    "type": "Boolean",
+    "description": "Unlock the chat message / command string length limit\n§3From: TISUnion/Carpet-TIS-Addition",
+    "extras": "The limit will be raised from 256 to 32000 Carpet TIS Addition is required to be installed on the client ",
+    "default": false
   },
   {
     "name": "commandDraw",
@@ -4478,6 +4929,13 @@
     "default": false
   },
   {
+    "name": "commandModificationBlockLimit",
+    "type": "Integer",
+    "description": "Command Modification Block Limit\n§3From: RubixDev/CarpetGamerules",
+    "extras": "Number of blocks that can be changed at once by one command, such as fill or clone. ",
+    "default": 32768
+  },
+  {
     "name": "instantPotions",
     "type": "Boolean",
     "description": "Instant potions\n§3From: whoImT/carpet-addons",
@@ -4490,6 +4948,13 @@
     "description": "Gives piglins a specified chance to drop ancient debris.\n§3From: JohanVonElectrum/Johan-Carpet",
     "extras": null,
     "default": 0
+  },
+  {
+    "name": "commandSpeedTest",
+    "type": "String",
+    "description": "Enables /speedtest command for network speed test\n§3From: TISUnion/Carpet-TIS-Addition",
+    "extras": "You can change the maximum allowed test size with rule speedTestCommandMaxTestSize ",
+    "default": "false"
   },
   {
     "name": "deobfuscateCrashReportStackTrace",
@@ -4625,6 +5090,13 @@
     "default": false
   },
   {
+    "name": "beaconsHealPets",
+    "type": "Boolean",
+    "description": "Beacons with their secondary effect set to regeneration can heal nearby tamed mobs\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "commandGoal",
     "type": "Boolean",
     "description": "Set a goal for a scoreboard objective to complete.\n§3From: ChronosServer/chronos-carpet-addons",
@@ -4637,6 +5109,13 @@
     "description": "Set a goal for a scoreboard objective to complete.\n§3From: LiteTechMC/litetech-additions",
     "extras": "This goal is for individual players and is not persistent between logins ",
     "default": true
+  },
+  {
+    "name": "disablePhantomSpawningForCreativePlayers",
+    "type": "Boolean",
+    "description": "Phantoms will no longer spawn for creative players.\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
+    "extras": null,
+    "default": false
   },
   {
     "name": "scriptsDebugging",
@@ -4706,7 +5185,7 @@
     "type": "Boolean",
     "description": "Smooth client animations with low tps settings\n§3From: gnembon/fabric-carpet",
     "extras": "works only in SP ",
-    "default": false
+    "default": true
   },
   {
     "name": "naturalRegeneration",
@@ -4752,15 +5231,10 @@
   },
   {
     "name": "opPlayerNoCheat",
-    "type": "Cycle",
+    "type": "Boolean",
     "description": "Disable some command to prevent accidentally cheating\n§3From: TISUnion/Carpet-TIS-Addition",
     "extras": "Affects command list: /gamemode, /tp, /teleport, /give, /setblock, /summon ",
-    "default": "false",
-    "cycles": [
-      "true",
-      "false",
-      "ops"
-    ]
+    "default": false
   },
   {
     "name": "craftableSand",
@@ -4788,6 +5262,20 @@
     "description": "Sponge will prevent block explosion damage if its in the tnt list of blocks to break\n§3From: fxmorin/WeirdAddons",
     "extras": null,
     "default": false
+  },
+  {
+    "name": "commandQC",
+    "type": "String",
+    "description": "Enables /quasiconnectivity command to toggle quasi-power capability for individual redstone components\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": "true"
+  },
+  {
+    "name": "copperBulbDelay",
+    "type": "Integer",
+    "description": "The length of time it takes for copper bulbs to react to a signal, in ticks\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": "1 is the value that matches the behavior of 23w43a-23w45a. ",
+    "default": 0
   },
   {
     "name": "renewableRawOres",
@@ -4823,6 +5311,13 @@
     "default": false
   },
   {
+    "name": "comparatorsReadThroughChains",
+    "type": "Boolean",
+    "description": "Comparators can read through chains, like in Bedrock Edition\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "clientSettingsLostOnRespawnFix",
     "type": "Boolean",
     "description": "Fixed stored client settings are not migrated from the old player entity during player respawn or entering end portal in the end\n§3From: TISUnion/Carpet-TIS-Addition",
@@ -4842,6 +5337,13 @@
     "description": "Enables /signal command to get a container with comparator value.\n§3From: JohanVonElectrum/Johan-Carpet",
     "extras": null,
     "default": false
+  },
+  {
+    "name": "stickyPillarBlocks",
+    "type": "String",
+    "description": "Pillar blocks like logs and bone blocks stick to each other based on the axis direction when moved\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": "\"stick_to_all\" causes them to connect to each other regardless of axis direction. ",
+    "default": "FALSE"
   },
   {
     "name": "cauldronBlockItemInteractFix",
@@ -4888,9 +5390,9 @@
   {
     "name": "endermanNoGrief",
     "type": "Boolean",
-    "description": "Endermans not tries to pick any block\n§3From: luisch444/Hosting-luisch-Carpet",
-    "extras": null,
-    "default": false
+    "description": "Reduced the blocks that an enderman can hold.\n§3From: MultiCoreNetwork/carpet-redcraft-addons",
+    "extras": "Podzol ",
+    "default": true
   },
   {
     "name": "redSandstoneCraftingCompatibility",
@@ -4964,6 +5466,13 @@
     "name": "invulnerableAreImmuneToCreativePlayers",
     "type": "Boolean",
     "description": "Prevents creative players from attacking invulnerable mobs.\n§3From: adryd325/ceramic",
+    "extras": null,
+    "default": false
+  },
+  {
+    "name": "dispensersRemoveEyesOfEnder",
+    "type": "Boolean",
+    "description": "Dispensers can remove eyes of ender from full end portal frames. any connecting end portals will\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
     "extras": null,
     "default": false
   },
@@ -5052,6 +5561,13 @@
     "default": false
   },
   {
+    "name": "shadowCraftingGeneration",
+    "type": "Boolean",
+    "description": "Introduce a crafting recipe to create new Shadow Items\n§3From: mattymatty97/carpet-shadow",
+    "extras": "combine any item stack and a EnderChest to generate a new shadow stack the operation will consume 1 item from each component WARNING: do not move the items with SHIFT WARNING: do not close the GUI with a shadow stack in the crafting grid ",
+    "default": false
+  },
+  {
     "name": "llamaDupeExploit",
     "type": "Boolean",
     "description": "Enables old donkey / llama dupe bug.\n§3From: JohanVonElectrum/Johan-Carpet",
@@ -5130,10 +5646,17 @@
   },
   {
     "name": "language",
-    "type": "String",
+    "type": "Cycle",
     "description": "Sets the language for carpet\n§3From: gnembon/fabric-carpet",
     "extras": null,
-    "default": "en_us"
+    "default": "en_us",
+    "cycles": [
+      "en_us",
+      "fr_fr",
+      "pt_br",
+      "zh_cn",
+      "zh_tw"
+    ]
   },
   {
     "name": "commandTrackAI",
@@ -5344,6 +5867,13 @@
     "default": false
   },
   {
+    "name": "FarmableClay",
+    "type": "Boolean",
+    "description": "Lets dispensers convert dirt into clay with water bottles\n§3From: RLLD576/Rober-Carpet",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "clickThroughItemFrame",
     "type": "Boolean",
     "description": "Click through item frames that are invisible and fixed\n§3From: Ma_124/mc-anvil-crush",
@@ -5419,6 +5949,13 @@
     "default": false
   },
   {
+    "name": "zoglinsSpawnInPortals",
+    "type": "Boolean",
+    "description": "Zoglins have a chance of spawning inside overworld nether portals\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "worldgenIncorrectOrderFix",
     "type": "Boolean",
     "description": "Fixes world modifying tasks to be before decorations [lakes]\n§3From: fxmorin/carpet-fixes",
@@ -5478,6 +6015,13 @@
     "description": "Fixes pistons pulling/pushing blocks using a hashmap causing order to be locational\n§3From: fxmorin/carpet-fixes",
     "extras": "[MC-233420](https://bugs.mojang.com/browse/MC-233420) ",
     "default": false
+  },
+  {
+    "name": "maxMinecartSpeed",
+    "type": "Double",
+    "description": "The maximum speed minecarts can travel at in blocks per second\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": "Underwater max speed will always be half of this number. ",
+    "default": 8.0
   },
   {
     "name": "updateSuppressionFix",
@@ -5592,6 +6136,18 @@
     "default": "#none"
   },
   {
+    "name": "compactTrimTooltips",
+    "type": "Cycle",
+    "description": "Compacts the tooltips of armor trims to a single line\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": "\"only_pattern\" removes the material text but leaves the color formatting. For more information, check the designated Github wiki page! ",
+    "default": "FALSE",
+    "cycles": [
+      "false",
+      "true",
+      "only_pattern"
+    ]
+  },
+  {
     "name": "filterBotsInScores",
     "type": "Boolean",
     "description": "Bots don't appear on scoreboards and do not count in the total.\n§3From: JohanVonElectrum/Johan-Carpet",
@@ -5602,6 +6158,20 @@
     "name": "tripwireHookDupeFix",
     "type": "Boolean",
     "description": "Fixes a tripwire hook dupe using doors & trapdoors\n§3From: fxmorin/carpet-fixes",
+    "extras": null,
+    "default": false
+  },
+  {
+    "name": "phantomsObeyHostileMobCap",
+    "type": "Boolean",
+    "description": "Phantoms will no longer spawn if the hostile mobcap is full. this is per player.\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
+    "extras": null,
+    "default": false
+  },
+  {
+    "name": "redstoneOpensBarrels",
+    "type": "Boolean",
+    "description": "Powering barrels with redstone forces them open\n§3From: axialeaa/DoormatCarpetExtension",
     "extras": null,
     "default": false
   },
@@ -5620,11 +6190,25 @@
     "default": false
   },
   {
+    "name": "compactEnchantTooltips",
+    "type": "Boolean",
+    "description": "Compacts the tooltips of enchantments by listing them as a cycling carousel\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": "For more information, check the designated Github wiki page! ",
+    "default": false
+  },
+  {
     "name": "cameraModeRestoreLocation",
     "type": "Boolean",
     "description": "Restores player location back to original location in survival, similar to the cs script by kdender\n§3From: Super-Santa/EssentialAddons",
     "extras": "Saves location even after server restart ",
     "default": true
+  },
+  {
+    "name": "SleepingDelay",
+    "type": "Integer",
+    "description": "Sets the game-ticks of delay when you sleep in a bed (vanilla is 100)\n§3From: RLLD576/Rober-Carpet",
+    "extras": null,
+    "default": 100
   },
   {
     "name": "craftablePackedIce",
@@ -5649,15 +6233,10 @@
   },
   {
     "name": "fillCommandModeEnhance",
-    "type": "Cycle",
+    "type": "String",
     "description": "Enhance modes in the /fill command\n§3From: TISUnion/Carpet-TIS-Addition",
     "extras": "Add softreplace mode: Keep the block state of the original block as much as possible. You can use it to replace block type of stairs / slabs etc. ",
-    "default": "true",
-    "cycles": [
-      "true",
-      "false",
-      "ops"
-    ]
+    "default": "true"
   },
   {
     "name": "missingStructureCorruptionFix",
@@ -5772,6 +6351,13 @@
     "default": false
   },
   {
+    "name": "disableNetherPortalCrossing",
+    "type": "Boolean",
+    "description": "Disables travelling through nether portals\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "craftableColoredBlocks",
     "type": "Boolean",
     "description": "Allows to use colored blocks to craft other color variants.\n§3From: MultiCoreNetwork/carpet-redcraft-addons",
@@ -5815,15 +6401,10 @@
   },
   {
     "name": "commandLifeTime",
-    "type": "Cycle",
+    "type": "String",
     "description": "Enables /lifetime command to track entity lifetime and so on\n§3From: TISUnion/Carpet-TIS-Addition",
     "extras": "Useful for mob farm debugging etc. ",
-    "default": "true",
-    "cycles": [
-      "true",
-      "false",
-      "ops"
-    ]
+    "default": "true"
   },
   {
     "name": "nonOPWhereIs",
@@ -5831,6 +6412,20 @@
     "description": "Enable /where{is,ami}, /imhere, /{he,she}is for non operators\n§3From: Ma_124/mc-anvil-crush",
     "extras": "",
     "default": false
+  },
+  {
+    "name": "snowAccumulationHeight",
+    "type": "Integer",
+    "description": "Snow accumulation height\n§3From: RubixDev/CarpetGamerules",
+    "extras": "When it snows, layers of snow form on the ground up to at most this number of layers. ",
+    "default": 1
+  },
+  {
+    "name": "blockExplosionDropDecay",
+    "type": "Boolean",
+    "description": "In block interaction explosions, some blocks won't drop their loot\n§3From: RubixDev/CarpetGamerules",
+    "extras": "Some of the drops from blocks destroyed by explosions caused by block interactions are lost in the explosion. ",
+    "default": true
   },
   {
     "name": "eggWaterDrag",
@@ -5916,9 +6511,9 @@
     "default": 10
   },
   {
-    "name": "enderPearlsNoCooldown",
+    "name": "replaceFlowersInPots",
     "type": "Boolean",
-    "description": "Disable cooldown of enderpearls\n§3From: luisch444/Hosting-luisch-Carpet",
+    "description": "When right clicking a flower pot with a pottable item, it will replace the item that already was in the pot.\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
     "extras": null,
     "default": false
   },
@@ -5968,6 +6563,13 @@
     ]
   },
   {
+    "name": "OldFallingBehavior",
+    "type": "Boolean",
+    "description": "Reintroduce the 1.12 falling block behavior\n§3From: RLLD576/Rober-Carpet",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "voidDamageAmount",
     "type": "Double",
     "description": "Modify the amount of void damage\n§3From: TISUnion/Carpet-TIS-Addition",
@@ -5994,6 +6596,13 @@
     "description": "Portals in redcraft2 area will link to redcraft2 dimensions\n§3From: MultiCoreNetwork/carpet-redcraft-addons",
     "extras": null,
     "default": false
+  },
+  {
+    "name": "waterSourceConversion",
+    "type": "Boolean",
+    "description": "Water converts to source\n§3From: RubixDev/CarpetGamerules",
+    "extras": "When flowing water is surrounded on two sides by water sources it converts into a source. ",
+    "default": true
   },
   {
     "name": "poiUpdates",
@@ -6056,6 +6665,13 @@
     "type": "Boolean",
     "description": "Optimized the recipemanager getfirstmatch call to be up to 3x faster\n§3From: fxmorin/carpet-fixes",
     "extras": "This is a fully vanilla optimization. Improves: [Blast]Furnace/Campfire/Smoker/Stonecutter/Crafting/Sheep Color Choosing This was mostly made for the auto crafting table, since the performance boost is much more visible while using that mod ",
+    "default": false
+  },
+  {
+    "name": "mossSpreadToStoneBricks",
+    "type": "Boolean",
+    "description": "Moss can convert nearby stone bricks to mossy stone bricks when fertilized\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": "This feature is controlled through doormat/worldgen/configured_feature/mossy_stone_bricks_patch.json. ",
     "default": false
   },
   {
@@ -6206,6 +6822,13 @@
     "default": false
   },
   {
+    "name": "entityBrainMemoryUnfreedFix",
+    "type": "Boolean",
+    "description": "Fix brain memory of living entity staying unfreed after the entity has been removed\n§3From: TISUnion/Carpet-TIS-Addition",
+    "extras": "This could lead to a memory leak if living entities remember other and then get removed continuously and create an endless memory chain in their brains Fixed MC-260605, using the same fix that Mojang implemented in 1.19.4-pre3 ",
+    "default": false
+  },
+  {
     "name": "entityMomentumLoss",
     "type": "Boolean",
     "description": "Set it to false to disable entity axis momentum cancellation if it's above 10m/gt when being loaded from disk\n§3From: TISUnion/Carpet-TIS-Addition",
@@ -6230,7 +6853,7 @@
     "name": "maxEntityCramming",
     "type": "Integer",
     "description": "Entity cramming threshold\n§3From: RubixDev/CarpetGamerules",
-    "extras": "The maximum number of pushable entities a mob or player can push, before taking 3 suffocation damage per half-second Setting to 0 or lower disables the rule Damage affects survival-mode or adventure-mode players, and all mobs but bats. Pushable entities include non-spectator-mode players, any mob except bats, as well as boats and minecarts ",
+    "extras": "The maximum number of pushable entities a mob or player can push, before taking 3 suffocation damage per half-second. Setting to 0 or lower disables the rule. Damage affects survival-mode or adventure-mode players, and all mobs but bats. Pushable entities include non-spectator-mode players, any mob except bats, as well as boats and minecarts. ",
     "default": 24
   },
   {
@@ -6310,27 +6933,17 @@
   },
   {
     "name": "commandSleep",
-    "type": "Cycle",
+    "type": "String",
     "description": "Enables /sleep command for creating lag\n§3From: TISUnion/Carpet-TIS-Addition",
     "extras": null,
-    "default": "ops",
-    "cycles": [
-      "true",
-      "false",
-      "ops"
-    ]
+    "default": "ops"
   },
   {
     "name": "commandRefresh",
-    "type": "Cycle",
+    "type": "String",
     "description": "Enables /refresh command for synchronizing your client to the server\n§3From: TISUnion/Carpet-TIS-Addition",
     "extras": null,
-    "default": "true",
-    "cycles": [
-      "true",
-      "false",
-      "ops"
-    ]
+    "default": "true"
   },
   {
     "name": "shadowItemMode",
@@ -6371,6 +6984,13 @@
     "description": "Change the max amount of that a sponge can absorb\n§3From: fxmorin/WeirdAddons",
     "extras": null,
     "default": 64
+  },
+  {
+    "name": "spawnJockeyProbably",
+    "type": "Double",
+    "description": "When spawning mobs, if jockey variant exists, spawn the jockey variant with given probably\n§3From: TISUnion/Carpet-TIS-Addition",
+    "extras": "Affected jockeys: chicken jockey, spider jockey, strider jockey For striders, the spawn ratio between zombified piglin and baby strider is still 1:3 Set it to -1 to disable the rule and use vanilla logic ",
+    "default": -1.0
   },
   {
     "name": "dispensersStripBlocks",
@@ -6478,6 +7098,13 @@
     "default": false
   },
   {
+    "name": "insomniaDayCount",
+    "type": "Integer",
+    "description": "The number of sleepless nights after which phantoms can spawn around the player\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": 3
+  },
+  {
     "name": "targetBlockPermanentlyPoweredFix",
     "type": "Boolean",
     "description": "Fixes target blocks being permanently powered when moved by pistons\n§3From: fxmorin/carpet-fixes",
@@ -6517,13 +7144,6 @@
     "type": "Boolean",
     "description": "Fixes spawning entities using spawn eggs on entities not creating entity_place game event\n§3From: fxmorin/carpet-fixes",
     "extras": "[MC-214472](https://bugs.mojang.com/browse/MC-214472) ",
-    "default": false
-  },
-  {
-    "name": "stackeableTotems",
-    "type": "Boolean",
-    "description": "Totems can be stackeable\n§3From: luisch444/Hosting-luisch-Carpet",
-    "extras": null,
     "default": false
   },
   {
@@ -6598,10 +7218,16 @@
   },
   {
     "name": "comparatorBetterItemFrames",
-    "type": "String",
+    "type": "Cycle",
     "description": "Allows comparators to see item frames that are horizontal in front of them and on top the the block in front of them\n§3From: gnembon/carpet-extra",
     "extras": "Behind: Allows comparators to detect item frames in the block behind them Lenient: Allows comparators to detect any item frames within the block behind a full block Extended: Allows comparators to detect item frames on a full block behind the comparator ",
-    "default": "vanilla"
+    "default": "vanilla",
+    "cycles": [
+      "vanilla",
+      "behind",
+      "lenient",
+      "extended"
+    ]
   },
   {
     "name": "dispenserCollectXp",
@@ -6614,6 +7240,13 @@
     "name": "noGhastGriefing",
     "type": "Boolean",
     "description": "Prevents ghasts from destroying blocks\n§3From: RubixDev/Rug",
+    "extras": null,
+    "default": false
+  },
+  {
+    "name": "spawnEggsSpawnMobsWithNoAI",
+    "type": "Boolean",
+    "description": "A spawn egg will spawn a mob with no ai.\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
     "extras": null,
     "default": false
   },
@@ -6684,6 +7317,13 @@
     ]
   },
   {
+    "name": "growableSwampOakTrees",
+    "type": "Boolean",
+    "description": "Oak saplings grow into swamp oaks in swamp biomes\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "ocelotsAndCatsTryToFleeInVehicleFix",
     "type": "Boolean",
     "description": "Fixes ocelots and cats trying to flee from the player while being stuck in a vehicle like a boat\n§3From: fxmorin/carpet-fixes",
@@ -6730,6 +7370,13 @@
     "type": "Boolean",
     "description": "Fixes the issue where block updates are inconsistent due to directionality\n§3From: fxmorin/carpet-fixes",
     "extras": "Warning! This changes how block updates are done and could effect some contraptions Fixes [MC-161402](https://bugs.mojang.com/browse/MC-161402) ",
+    "default": false
+  },
+  {
+    "name": "tntExplosionDropDecay",
+    "type": "Boolean",
+    "description": "In TNT explosions, some blocks won't drop their loot\n§3From: RubixDev/CarpetGamerules",
+    "extras": "Some of the drops from blocks destroyed by explosions caused by TNT are lost in the explosion. ",
     "default": false
   },
   {
@@ -6814,6 +7461,13 @@
     "type": "Boolean",
     "description": "Nether basalt generator without soul sand below\n§3From: gnembon/fabric-carpet",
     "extras": ".. will convert into blackstone instead ",
+    "default": false
+  },
+  {
+    "name": "composterSideInputs",
+    "type": "Boolean",
+    "description": "Items can be inserted into composters from all 6 sides instead of just the top, via hoppers and droppers.\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
     "default": false
   },
   {
@@ -6917,6 +7571,20 @@
     "default": 100
   },
   {
+    "name": "reIntroduceTrapdoorUpdateSkipping",
+    "type": "Boolean",
+    "description": "Re-introduces compact update skippers using trapdoors\n§3From: fxmorin/carpet-fixes",
+    "extras": "",
+    "default": false
+  },
+  {
+    "name": "propagulePropagation",
+    "type": "Boolean",
+    "description": "Mangrove propagules actually propagate, falling from trees and planting themselves automatically\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "botsLoadChunks",
     "type": "Boolean",
     "description": "Can disable bots load new chunks.\n§3From: luisch444/Bastion-Carpet",
@@ -6964,6 +7632,13 @@
     "default": true
   },
   {
+    "name": "FallingBlockNoFrictionWithWalls",
+    "type": "Boolean",
+    "description": "Falling blocks over walls would not have friction with the floor as in 1.12\n§3From: RLLD576/Rober-Carpet",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "mobsAttackThroughBlocksFix",
     "type": "Boolean",
     "description": "Fixes mobs being able to hit entities through blocks\n§3From: fxmorin/carpet-fixes",
@@ -6996,6 +7671,13 @@
     "type": "Boolean",
     "description": "Fixes marker armor stands being able to trigger traps such as pressure plates, and string\n§3From: fxmorin/carpet-fixes",
     "extras": "[MC-135809](https://bugs.mojang.com/browse/MC-135809) ",
+    "default": false
+  },
+  {
+    "name": "passiveEndermen",
+    "type": "Boolean",
+    "description": "Endermen will not be provoked by the player when attacked or looked at. they will still be provoked by other mobs.\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
+    "extras": null,
     "default": false
   },
   {
@@ -7055,6 +7737,27 @@
     "default": false
   },
   {
+    "name": "minecartPlaceableOnGround",
+    "type": "Boolean",
+    "description": "Make minecart being able to be placed directly on ground without rails, like boat\n§3From: TISUnion/Carpet-TIS-Addition",
+    "extras": null,
+    "default": false
+  },
+  {
+    "name": "updateSuppressionSimulator",
+    "type": "Cycle",
+    "description": "Activator / Powered rail on a lapis ore simulates an update suppressor\n§3From: TISUnion/Carpet-TIS-Addition",
+    "extras": "Right before a powered activator / powered rail on a lapis ore setting its powered state to false, throw the given JVM throwable false: rule disabled; true: rule enable and use StackOverflowError; others: feature enable and use given throwable ",
+    "default": "false",
+    "cycles": [
+      "false",
+      "true",
+      "stackoverflowerror",
+      "outofmemoryerror",
+      "classcastexception"
+    ]
+  },
+  {
     "name": "executeBlockLimit",
     "type": "Integer",
     "description": "Customizable execute volume limit\n§3From: fxmorin/WeirdAddons",
@@ -7073,7 +7776,7 @@
     "type": "Boolean",
     "description": "Allows you to toggle onlinemode without needing to restart the server\n§3From: fxmorin/carpet-fixes",
     "extras": null,
-    "default": false
+    "default": true
   },
   {
     "name": "reIntroduceLightningRodPermanentlyPowered",
@@ -7261,6 +7964,18 @@
     "default": false
   },
   {
+    "name": "commandInteraction",
+    "type": "Cycle",
+    "description": "Enables /interaction command for controlling the effects of players on the environment\n§3From: lntricate1/intricarpet",
+    "extras": null,
+    "default": "ops",
+    "cycles": [
+      "true",
+      "false",
+      "ops"
+    ]
+  },
+  {
     "name": "commandPublicSaveAll",
     "type": "Boolean",
     "description": "Allows all players to use the command /save-all\n§3From: Super-Santa/EssentialAddons",
@@ -7331,6 +8046,13 @@
     "default": false
   },
   {
+    "name": "alwaysPickFlowersFromPots",
+    "type": "Boolean",
+    "description": "Right-clicking on a flowerpot containing a flower will always put the flower into your inventory.\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "maxChatLength",
     "type": "Integer",
     "description": "Changes the max chat length limit, you need essentialclient for this to work, setting this rule below 256 may cause issues\n§3From: Super-Santa/EssentialAddons",
@@ -7362,6 +8084,13 @@
     "name": "creativeOpenContainerForcibly",
     "type": "Boolean",
     "description": "Allow creative players to open a container even if the container is blocked. e.g. for shulker box\n§3From: TISUnion/Carpet-TIS-Addition",
+    "extras": null,
+    "default": false
+  },
+  {
+    "name": "deepslateDungeons",
+    "type": "Boolean",
+    "description": "Dungeons that generate below y = 0 will be made of cobbled deepslate instead of cobblestone\n§3From: axialeaa/DoormatCarpetExtension",
     "extras": null,
     "default": false
   },
@@ -7511,6 +8240,13 @@
     "default": false
   },
   {
+    "name": "forceGrassSpread",
+    "type": "Boolean",
+    "description": "Grass and mycelium can instantly spread to adjacent fertilized dirt\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": "This behaves the same as nylium in vanilla. ",
+    "default": false
+  },
+  {
     "name": "headlessPistonFix",
     "type": "Boolean",
     "description": "Fixes being able to make and use headless pistons\n§3From: fxmorin/carpet-fixes",
@@ -7550,6 +8286,13 @@
     "default": false
   },
   {
+    "name": "leavesNoCollision",
+    "type": "Boolean",
+    "description": "Disables the tangibility of leaves, making it easier to traverse areas with lots of trees\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "synchronizedLightThread",
     "type": "Boolean",
     "description": "Synchronize lighting thread with the server thread\n§3From: TISUnion/Carpet-TIS-Addition",
@@ -7572,10 +8315,15 @@
   },
   {
     "name": "carpetCommandPermissionLevel",
-    "type": "String",
+    "type": "Cycle",
     "description": "Carpet command permission level. can only be set via .conf file\n§3From: gnembon/fabric-carpet",
     "extras": null,
-    "default": "ops"
+    "default": "ops",
+    "cycles": [
+      "ops",
+      "2",
+      "4"
+    ]
   },
   {
     "name": "missingObserverUpdatesFix",
@@ -7669,6 +8417,13 @@
     "default": false
   },
   {
+    "name": "optimizedTNTEdgeCases",
+    "type": "Boolean",
+    "description": "Enables edge case fixes in optimizedtnt, at the cost of a bit less optimization\n§3From: lntricate1/intricarpet",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "mobBlackList",
     "type": "String",
     "description": "Stop some mobs from spawning\n§3From: Ivan-1F/Ivan-Carpet-Addition",
@@ -7746,6 +8501,13 @@
     "default": false
   },
   {
+    "name": "azaleaLeavesGrowFlowers",
+    "type": "Boolean",
+    "description": "Azalea leaves grow flowers when fertilized\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "movableAmethyst",
     "type": "Boolean",
     "description": "Allows budding amethyst blocks to be moved\n§3From: gnembon/fabric-carpet",
@@ -7809,15 +8571,10 @@
   },
   {
     "name": "commandManipulate",
-    "type": "Cycle",
+    "type": "String",
     "description": "Enables /manipulate command for world related manipulation command\n§3From: TISUnion/Carpet-TIS-Addition",
     "extras": null,
-    "default": "false",
-    "cycles": [
-      "true",
-      "false",
-      "ops"
-    ]
+    "default": "false"
   },
   {
     "name": "armorStandMissingFunctionalityFix",
@@ -7867,6 +8624,13 @@
     ]
   },
   {
+    "name": "portalForceTicking",
+    "type": "Boolean",
+    "description": "Nether portal blocks randomTick when lit, like in Bedrock Edition\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "hungerGoesDownInPeacefulFix",
     "type": "Boolean",
     "description": "Fixes hunger depleting in peaceful mode\n§3From: fxmorin/carpet-fixes",
@@ -7878,6 +8642,13 @@
     "type": "Boolean",
     "description": "Fixes villager trade demand decreases indefinitely\n§3From: fxmorin/carpet-fixes",
     "extras": "[MC-163962](https://bugs.mojang.com/browse/MC-163962) ",
+    "default": false
+  },
+  {
+    "name": "cryingObsidianPortalFrames",
+    "type": "Boolean",
+    "description": "Crying obsidian can be used in the frames of nether portals\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
     "default": false
   },
   {
@@ -8058,6 +8829,13 @@
     "type": "Boolean",
     "description": "Makes block update order random\n§3From: fxmorin/carpet-fixes",
     "extras": null,
+    "default": false
+  },
+  {
+    "name": "minecartFullDropBackport",
+    "type": "Boolean",
+    "description": "Backport the feature from Minecraft 1.19+ that minecart entity drops the full cart item on destroy\n§3From: TISUnion/Carpet-TIS-Addition",
+    "extras": "Only works in Minecraft < 1.19 ",
     "default": false
   },
   {
@@ -8304,6 +9082,25 @@
     "default": false
   },
   {
+    "name": "FallingBlockDieAge",
+    "type": "Integer",
+    "description": "Age in gameticks at which falling blocks die, -1 for infinity. (vanilla is 600)\n§3From: RLLD576/Rober-Carpet",
+    "extras": null,
+    "default": 600
+  },
+  {
+    "name": "disablePetAttacking",
+    "type": "Cycle",
+    "description": "Disables players harming tamed mobs\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": "\"owned\" allows players to hit pets that aren't their own. ",
+    "default": "FALSE",
+    "cycles": [
+      "false",
+      "true",
+      "owned"
+    ]
+  },
+  {
     "name": "commandOperator",
     "type": "Cycle",
     "description": "Enables /operator command to allow you to change the player's permission level.\n§3From: The-Cat-Town-Craft/Carpet-TCTC-Addition",
@@ -8491,7 +9288,7 @@
     "type": "Boolean",
     "description": "Allows you to toggle pvpenabled without needing to restart the server\n§3From: fxmorin/carpet-fixes",
     "extras": null,
-    "default": false
+    "default": true
   },
   {
     "name": "easyHarvesting",
@@ -8583,10 +9380,15 @@
   },
   {
     "name": "renewableCoral",
-    "type": "String",
+    "type": "Cycle",
     "description": "Coral structures will grow with bonemeal from coral plants\n§3From: gnembon/fabric-carpet",
     "extras": "Expanded also allows growing from coral fans for sustainable farming outside of warm oceans ",
-    "default": "false"
+    "default": "false",
+    "cycles": [
+      "false",
+      "expanded",
+      "true"
+    ]
   },
   {
     "name": "antiEnderGriefExceptMelon",
@@ -8650,6 +9452,13 @@
     "default": false
   },
   {
+    "name": "comparatorsReadThroughPistons",
+    "type": "Boolean",
+    "description": "Comparators can read through pistons, like in Bedrock Edition\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "shipwreckChunkBorderIssuesFix",
     "type": "Boolean",
     "description": "Fixes shipwrecks having different block palettes and heights between chunk borders\n§3From: fxmorin/carpet-fixes",
@@ -8661,6 +9470,13 @@
     "type": "Boolean",
     "description": "Remember the subscribed loggers as well as logging options of the player during server restart\n§3From: TISUnion/Carpet-TIS-Addition",
     "extras": "Only applies carpet's defaultLoggers rule at someone's first login Logger subscriptions are saved in config/carpettisaddition/logger_subscriptions.json ",
+    "default": false
+  },
+  {
+    "name": "netheritePickaxeInstantMineNetherBricks",
+    "type": "Boolean",
+    "description": "A netherite pickaxe with efficiency v combined with the haste ii status effect will instant mine\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
+    "extras": null,
     "default": false
   },
   {
@@ -8737,11 +9553,30 @@
     "default": true
   },
   {
+    "name": "allowListingFakePlayers",
+    "type": "Cycle",
+    "description": "Allows listing fake players on the multiplayer screen\n§3From: gnembon/fabric-carpet",
+    "extras": null,
+    "default": "false",
+    "cycles": [
+      "true",
+      "false",
+      "ops"
+    ]
+  },
+  {
     "name": "stonecutterQuartz",
     "type": "Boolean",
     "description": "Adds stonecutter craftings for all types of quartz block.\n§3From: MultiCoreNetwork/carpet-redcraft-addons",
     "extras": null,
     "default": true
+  },
+  {
+    "name": "fakePlayerTicksLikeRealPlayer",
+    "type": "Boolean",
+    "description": "Adjust the game phase where carpet's fake player logic and /player action packs are ticked, to make their behavior as close to real players as possible\n§3From: TISUnion/Carpet-TIS-Addition",
+    "extras": "Adjustments, before -> after: 1. Fake player entity-related ticking: Entity Phase -> Network Phase 2. /player command action packs: Entity Phase -> Asynchronous Task Phase ",
+    "default": false
   },
   {
     "name": "donkeyDupeFeature",
@@ -8755,6 +9590,13 @@
     "type": "Boolean",
     "description": "Disable villager jockeys\n§3From: DreamRealmCraft/carpet-DRC-Addition",
     "extras": null,
+    "default": false
+  },
+  {
+    "name": "shadowSuppressionGeneration",
+    "type": "Boolean",
+    "description": "Reintroduce pre 1.19 shadow item generation by update suppression\n§3From: mattymatty97/carpet-shadow",
+    "extras": "DISCLAIMER: this will not reintroduce old update suppression ",
     "default": false
   },
   {
@@ -8795,6 +9637,13 @@
     "type": "Boolean",
     "description": "Allows anyone to use the /scoreboard command\n§3From: Super-Santa/EssentialAddons",
     "extras": null,
+    "default": false
+  },
+  {
+    "name": "compactTemplateTooltips",
+    "type": "Boolean",
+    "description": "Compacts the tooltips of smithing templates by removing the \"Applies to\" and \"Ingredients\" text\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": "For more information, check the designated Github wiki page! ",
     "default": false
   },
   {
@@ -8908,6 +9757,13 @@
     "default": false
   },
   {
+    "name": "boatTooFarFromDispenserFix",
+    "type": "Boolean",
+    "description": "Fixes boats getting created 1/16th of a block too far from the dispenser that created them\n§3From: fxmorin/carpet-fixes",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "accurateBlockPlacement",
     "type": "Boolean",
     "description": "Client can provide alternative block placement.\n§3From: MultiCoreNetwork/carpet-redcraft-addons",
@@ -8982,13 +9838,6 @@
     "default": true
   },
   {
-    "name": "allowBrigadierStringEscapes",
-    "type": "Boolean",
-    "description": "A backport of brigadier#90. Makes stringified NBTs support more JSON-like string escapes.\n§3From: adryd325/ceramic",
-    "extras": null,
-    "default": false
-  },
-  {
     "name": "renewableNetherrack",
     "type": "Boolean",
     "description": "Makes Netherrack or Nylium generate around Nether Portals that generate midair\n§3From: jsorrell/CarpetSkyAdditions",
@@ -9000,6 +9849,13 @@
     "type": "Boolean",
     "description": "Fixes stringtag exploits due to stringtag writeutf() not respecting readutf() limits causing crashes internally\n§3From: fxmorin/carpet-fixes",
     "extras": "Fixes ChunkRegen & [MC-134892](https://bugs.mojang.com/browse/MC-134892) ",
+    "default": false
+  },
+  {
+    "name": "pickFlowersFromPots",
+    "type": "Boolean",
+    "description": "Right-clicking on a flowerpot with a flower in it will put the flower into your inventory\n§3From: Gilly7CE/Carpet-Addons-Not-Found",
+    "extras": null,
     "default": false
   },
   {
@@ -9064,6 +9920,13 @@
     "description": "Changes the distance projectiles check for collisions. if set to 0 all blocks to the destination will be checked which is the vanilla behaviour.\n§3From: EpsilonSMP/Epsilon-Carpet",
     "extras": "This reduces lag for fast projectiles. In 1.12 the value was 200. ",
     "default": 0
+  },
+  {
+    "name": "mossSpreadToCobblestone",
+    "type": "Boolean",
+    "description": "Moss can convert nearby cobblestone to mossy cobblestone when fertilized\n§3From: axialeaa/DoormatCarpetExtension",
+    "extras": "This feature is controlled through doormat/worldgen/configured_feature/mossy_cobblestone_patch.json. ",
+    "default": false
   },
   {
     "name": "tridentFallingDamageFix",

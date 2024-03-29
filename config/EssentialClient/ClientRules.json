@@ -4,7 +4,7 @@
     "extras": null
   },
   "carpetAlwaysSetDefault": {
-    "value": false,
+    "value": true,
     "extras": null
   },
   "chunkDebugMinimapBackground": {
@@ -12,7 +12,7 @@
     "extras": null
   },
   "chunkDebugShowUnloadedChunks": {
-    "value": false,
+    "value": true,
     "extras": null
   },
   "clientScriptAnnouncements": {
@@ -100,7 +100,7 @@
     "extras": null
   },
   "essentialClientButton": {
-    "value": true,
+    "value": false,
     "extras": null
   },
   "titleTextToTop": {

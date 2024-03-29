@@ -81,6 +81,9 @@ litematica
 #minihud cache
 minihud
 
+#command cache
+command_history.txt
+
 #distant horizons cache
 Distant_Horizons_server_data
 
