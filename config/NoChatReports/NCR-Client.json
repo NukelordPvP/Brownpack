@@ -1,6 +1,6 @@
 {
-  "defaultSigningMode": "PROMPT",
-  "enableMod": false,
+  "defaultSigningMode": "ALWAYS",
+  "enableMod": true,
   "showNCRButton": true,
   "showReloadButton": true,
   "verifiedIconEnabled": true,
@@ -10,7 +10,7 @@
   "hideSystemMessageIndicators": true,
   "hideWarningToast": true,
   "hideSigningRequestMessage": false,
-  "alwaysHideReportButton": false,
+  "alwaysHideReportButton": true,
   "skipRealmsWarning": false,
   "disableTelemetry": true,
   "removeTelemetryButton": true,

@@ -175,7 +175,7 @@
       "keys": "LEFT_ALT"
     },
     "openConfigGui": {
-      "keys": "X,C"
+      "keys": "T,C"
     },
     "placementYMirror": {
       "keys": ""

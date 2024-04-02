@@ -20,9 +20,9 @@
     "commandUseWorldEdit": false,
     "customSchematicBaseDirectoryEnabled": false,
     "debugLogging": false,
-    "easyPlaceFirst": true,
+    "easyPlaceFirst": false,
     "easyPlaceHoldEnabled": true,
-    "easyPlaceMode": false,
+    "easyPlaceMode": true,
     "easyPlaceSinglePlayerHandling": true,
     "easyPlaceProtocolVersion": "auto",
     "easyPlaceVanillaReach": false,
@@ -68,7 +68,7 @@
     "easyPlaceSwapInterval": 0,
     "pickBlockableSlots": "1,2,3,4,5",
     "toolItem": "minecraft:stick",
-    "printingMode": true,
+    "printingMode": false,
     "printingInterval": 12,
     "printingRange": 5.0,
     "replaceFluidSourceBlocks": true,
@@ -85,7 +85,7 @@
       "keys": ""
     },
     "easyPlaceUseKey": {
-      "keys": "BUTTON_2"
+      "keys": "J"
     },
     "easyPlaceToggle": {
       "keys": ""
@@ -367,10 +367,10 @@
       "keys": ""
     },
     "print": {
-      "keys": "V"
+      "keys": ""
     },
     "togglePrintingMode": {
-      "keys": "KP_ENTER"
+      "keys": "ENTER"
     }
   },
   "InfoOverlays": {
@@ -403,7 +403,7 @@
   },
   "Visuals": {
     "enableRendering": true,
-    "enableSchematicRendering": true,
+    "enableSchematicRendering": false,
     "enableAreaSelectionBoxesRendering": true,
     "enablePlacementBoxesRendering": true,
     "enableSchematicBlocksRendering": true,
