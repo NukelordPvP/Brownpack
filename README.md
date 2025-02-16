@@ -14,13 +14,13 @@ SymlinkCreator is a tool that helps you globally sync things like worldmap, mini
 
 ### How to Symlink for Folders
 1. Install SymlinkCreator then run as admin or it will fail.
-2. Select the source folder (e.g., `/Brownpack/screenshots`). <- Source (Target)
-3. Select the output folder (e.g., `/Brownpack-Alt-0/`). <- Destination (Link)
+2. Select the source (target) folder (e.g., `/Brownpack/screenshots`).
+3. Select the output (destination of link) folder (e.g., `/Brownpack-Alt-0/`).
 
 ### How to Symlink for Files
 1. Install this program.
-2. Select the source file (e.g., `/Brownpack/servers.dat`). <- Source (Target)
-3. Select the output folder (e.g., `/Brownpack-Alt-0/`). <- Destination (Link)
+2. Select the source (target) file (e.g., `/Brownpack/servers.dat`).
+3. Select the output (destination of link) folder (e.g., `/Brownpack-Alt-0/`).
 
 ### List of Folders to Symlink
 - baritone
