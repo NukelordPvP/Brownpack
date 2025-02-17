@@ -42,6 +42,12 @@ SymlinkCreator is a tool that helps you globally sync things like worldmap, mini
 ### List of Files to Symlink
 - servers.dat
 
+### List of Folders that cannot be Symlink
+- config | access issues
+- mods | access issues
+
+### List of Files that cannot be Symlink
+
 ## XaeroPlus
 For more useful tools and information, visit the [XaeroPlus GitHub](https://github.com/rfresh2/XaeroPlus).
 
