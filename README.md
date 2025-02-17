@@ -25,6 +25,7 @@ SymlinkCreator is a tool that helps you globally sync things like worldmap, mini
 ### List of Folders to Symlink
 - baritone
 - data
+- Distant_Horizons_server_data
 - drippyloadingscreen
 - meteor-client
 - profileImage
