@@ -42,6 +42,7 @@ SymlinkCreator is a tool that helps you globally sync things like worldmap, mini
 
 ### List of Files to Symlink
 - servers.dat
+- servers.dat_old
 
 ### List of Folders that cannot be Symlink
 - config | access issues
