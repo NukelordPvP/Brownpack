@@ -27,7 +27,7 @@ SymlinkCreator is a tool that helps you globally sync things like worldmap, mini
 - data
 - Distant_Horizons_server_data
 - drippyloadingscreen
-- ESM | Extreme Sound Muffler muffled sounds cords
+- ESM | Extreme Sound Muffler, muffled sounds cordinate data
 - meteor-client
 - profileImage
 - replay_recordings
