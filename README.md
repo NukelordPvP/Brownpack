@@ -48,6 +48,9 @@ SymlinkCreator is a tool that helps you globally sync things like worldmap, mini
 - mods | access issues
 
 ### List of Files that cannot be Symlink
+- command_history.txt | not needed
+- knownkeys.txt | not needed
+- options.txt | not recommended if you want to for example lower render distance on alt only
 
 ## XaeroPlus
 For more useful tools and information, visit the [XaeroPlus GitHub](https://github.com/rfresh2/XaeroPlus).
